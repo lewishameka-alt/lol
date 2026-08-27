@@ -29,6 +29,14 @@ describe("GET /api/jokes/random", () => {
     expect(res.body).toHaveProperty("setup");
     expect(res.body).toHaveProperty("punchline");
   });
+
+  it("never returns the excluded joke", async () => {
+    for (let i = 0; i < 50; i++) {
+      const res = await request(app).get("/api/jokes/random?exclude=1");
+      expect(res.status).toBe(200);
+      expect(res.body.id).not.toBe(1);
+    }
+  });
 });
 
 describe("GET /api/jokes/:id", () => {
@@ -52,5 +60,10 @@ describe("GET /api/jokes/:id", () => {
 describe("getRandomJoke", () => {
   it("is deterministic given a fixed rng", () => {
     expect(getRandomJoke(() => 0)).toEqual(jokes[0]);
+  });
+
+  it("excludes the requested joke id", () => {
+    const result = getRandomJoke(() => 0, jokes[0].id);
+    expect(result.id).not.toBe(jokes[0].id);
   });
 });

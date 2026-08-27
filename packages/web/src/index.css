@@ -70,8 +70,10 @@ body {
 
 .card__punchline {
   margin: 0;
-  font-size: 1.2rem;
-  color: #7ef5c2;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #3ff0a5;
+  text-shadow: 0 0 18px rgba(63, 240, 165, 0.35);
 }
 
 .card__error {

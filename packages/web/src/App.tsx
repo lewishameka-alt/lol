@@ -8,11 +8,15 @@ export function App() {
   const [status, setStatus] = useState<Status>("loading");
   const [revealed, setRevealed] = useState(false);
 
-  const fetchJoke = useCallback(async () => {
+  const fetchJoke = useCallback(async (excludeId?: number) => {
     setStatus("loading");
     setRevealed(false);
     try {
-      const res = await fetch("/api/jokes/random");
+      const url =
+        excludeId === undefined
+          ? "/api/jokes/random"
+          : `/api/jokes/random?exclude=${excludeId}`;
+      const res = await fetch(url);
       if (!res.ok) throw new Error(`Request failed: ${res.status}`);
       const data: Joke = await res.json();
       setJoke(data);
@@ -65,7 +69,7 @@ export function App() {
       <button
         type="button"
         className="btn btn--primary"
-        onClick={() => void fetchJoke()}
+        onClick={() => void fetchJoke(joke?.id)}
         disabled={status === "loading"}
       >
         {status === "loading" ? "…" : "Another one"}

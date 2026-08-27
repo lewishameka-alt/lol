@@ -16,8 +16,16 @@ export function createApp(): Express {
     res.json({ count: jokes.length, jokes });
   });
 
-  app.get("/api/jokes/random", (_req, res) => {
-    res.json(getRandomJoke());
+  app.get("/api/jokes/random", (req, res) => {
+    const excludeRaw = req.query.exclude;
+    let excludeId: number | undefined;
+    if (typeof excludeRaw === "string" && excludeRaw !== "") {
+      const parsed = Number(excludeRaw);
+      if (Number.isInteger(parsed)) {
+        excludeId = parsed;
+      }
+    }
+    res.json(getRandomJoke(Math.random, excludeId));
   });
 
   app.get("/api/jokes/:id", (req, res) => {

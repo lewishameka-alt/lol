@@ -37,9 +37,17 @@ export const jokes: Joke[] = [
   },
 ];
 
-export function getRandomJoke(rng: () => number = Math.random): Joke {
-  const index = Math.floor(rng() * jokes.length);
-  return jokes[index];
+export function getRandomJoke(
+  rng: () => number = Math.random,
+  excludeId?: number,
+): Joke {
+  const pool =
+    excludeId === undefined
+      ? jokes
+      : jokes.filter((joke) => joke.id !== excludeId);
+  const candidates = pool.length > 0 ? pool : jokes;
+  const index = Math.floor(rng() * candidates.length);
+  return candidates[index];
 }
 
 export function getJokeById(id: number): Joke | undefined {
