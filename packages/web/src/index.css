@@ -1,0 +1,123 @@
+:root {
+  color-scheme: dark;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at 20% 20%, #2a2350, #0f0d1f 60%);
+  color: #f4f2ff;
+}
+
+.app {
+  width: min(560px, 92vw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.75rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app__header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.app__title {
+  margin: 0;
+  font-size: 3rem;
+  letter-spacing: -0.03em;
+}
+
+.app__emoji {
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.35));
+}
+
+.app__subtitle {
+  margin: 0;
+  color: #b9b3e0;
+}
+
+.card {
+  width: 100%;
+  min-height: 180px;
+  padding: 2rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+.card__setup {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.card__punchline {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #3ff0a5;
+  text-shadow: 0 0 18px rgba(63, 240, 165, 0.35);
+}
+
+.card__error {
+  margin: 0;
+  color: #ff9a9a;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.75rem 1.75rem;
+  transition: transform 0.08s ease, opacity 0.2s ease, background 0.2s ease;
+}
+
+.btn:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.btn:not(:disabled):active {
+  transform: translateY(1px);
+}
+
+.btn--primary {
+  background: linear-gradient(135deg, #7c5cff, #b16bff);
+  color: white;
+  box-shadow: 0 10px 30px rgba(124, 92, 255, 0.4);
+}
+
+.btn--ghost {
+  align-self: center;
+  background: rgba(255, 255, 255, 0.08);
+  color: #e7e3ff;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.app__footer {
+  color: #837daa;
+  font-size: 0.85rem;
+}
+
+.app__footer code {
+  color: #b9b3e0;
+}

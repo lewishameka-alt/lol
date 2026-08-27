@@ -1,0 +1,29 @@
+{
+  "name": "lol",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny full-stack joke app: Express API + Vite/React web client.",
+  "workspaces": [
+    "packages/server",
+    "packages/web"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n server,web -c blue,magenta \"npm:dev:server\" \"npm:dev:web\"",
+    "dev:server": "npm run dev --workspace @lol/server",
+    "dev:web": "npm run dev --workspace @lol/web",
+    "build": "npm run build --workspace @lol/server && npm run build --workspace @lol/web",
+    "start": "npm run start --workspace @lol/server",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "concurrently": "^9.1.0",
+    "eslint": "^9.17.0",
+    "typescript-eslint": "^8.18.0"
+  }
+}
