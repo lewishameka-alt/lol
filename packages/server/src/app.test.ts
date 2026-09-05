@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
 import request from "supertest";
 import { createApp } from "./app.js";
-import { getRandomJoke, jokes } from "./jokes.js";
+import { getRandomShot, shots } from "./shots.js";
+import { lewis } from "./profile.js";
 
 const app = createApp();
 
@@ -13,57 +14,99 @@ describe("GET /api/health", () => {
   });
 });
 
-describe("GET /api/jokes", () => {
-  it("returns all jokes", async () => {
-    const res = await request(app).get("/api/jokes");
+describe("GET /api/profile", () => {
+  it("returns Lewis profile", async () => {
+    const res = await request(app).get("/api/profile");
     expect(res.status).toBe(200);
-    expect(res.body.count).toBe(jokes.length);
-    expect(res.body.jokes).toHaveLength(jokes.length);
+    expect(res.body.name).toBe(lewis.name);
+    expect(res.body.heightCm).toBe(188);
+    expect(res.body.weightKg).toBe(73);
   });
 });
 
-describe("GET /api/jokes/random", () => {
-  it("returns a joke with setup and punchline", async () => {
-    const res = await request(app).get("/api/jokes/random");
+describe("GET /api/categories", () => {
+  it("lists shot categories", async () => {
+    const res = await request(app).get("/api/categories");
     expect(res.status).toBe(200);
-    expect(res.body).toHaveProperty("setup");
-    expect(res.body).toHaveProperty("punchline");
-  });
-
-  it("never returns the excluded joke", async () => {
-    for (let i = 0; i < 50; i++) {
-      const res = await request(app).get("/api/jokes/random?exclude=1");
-      expect(res.status).toBe(200);
-      expect(res.body.id).not.toBe(1);
-    }
+    expect(res.body.categories.length).toBeGreaterThan(0);
+    expect(res.body.categories[0]).toHaveProperty("id");
+    expect(res.body.categories[0]).toHaveProperty("label");
   });
 });
 
-describe("GET /api/jokes/:id", () => {
-  it("returns a specific joke", async () => {
-    const res = await request(app).get("/api/jokes/1");
+describe("GET /api/shots", () => {
+  it("returns all shots", async () => {
+    const res = await request(app).get("/api/shots");
     expect(res.status).toBe(200);
-    expect(res.body.id).toBe(1);
+    expect(res.body.count).toBe(shots.length);
+    expect(res.body.shots).toHaveLength(shots.length);
   });
 
-  it("404s for a missing joke", async () => {
-    const res = await request(app).get("/api/jokes/9999");
-    expect(res.status).toBe(404);
+  it("filters by category", async () => {
+    const res = await request(app).get("/api/shots?category=gym");
+    expect(res.status).toBe(200);
+    expect(res.body.shots.every((s: { category: string }) => s.category === "gym")).toBe(
+      true,
+    );
   });
 
-  it("400s for a non-integer id", async () => {
-    const res = await request(app).get("/api/jokes/abc");
+  it("400s for unknown category", async () => {
+    const res = await request(app).get("/api/shots?category=space");
     expect(res.status).toBe(400);
   });
 });
 
-describe("getRandomJoke", () => {
-  it("is deterministic given a fixed rng", () => {
-    expect(getRandomJoke(() => 0)).toEqual(jokes[0]);
+describe("GET /api/shots/random", () => {
+  it("returns a shot with a prompt", async () => {
+    const res = await request(app).get("/api/shots/random");
+    expect(res.status).toBe(200);
+    expect(res.body).toHaveProperty("title");
+    expect(res.body).toHaveProperty("prompt");
+    expect(res.body.prompt).toContain("Lewis Hameka");
   });
 
-  it("excludes the requested joke id", () => {
-    const result = getRandomJoke(() => 0, jokes[0].id);
-    expect(result.id).not.toBe(jokes[0].id);
+  it("never returns the excluded shot", async () => {
+    for (let i = 0; i < 50; i++) {
+      const res = await request(app).get("/api/shots/random?exclude=1");
+      expect(res.status).toBe(200);
+      expect(res.body.id).not.toBe(1);
+    }
+  });
+
+  it("respects category filter", async () => {
+    for (let i = 0; i < 20; i++) {
+      const res = await request(app).get("/api/shots/random?category=car");
+      expect(res.status).toBe(200);
+      expect(res.body.category).toBe("car");
+    }
+  });
+});
+
+describe("GET /api/shots/:id", () => {
+  it("returns a specific shot", async () => {
+    const res = await request(app).get("/api/shots/1");
+    expect(res.status).toBe(200);
+    expect(res.body.id).toBe(1);
+  });
+
+  it("404s for a missing shot", async () => {
+    const res = await request(app).get("/api/shots/9999");
+    expect(res.status).toBe(404);
+  });
+
+  it("400s for a non-integer id", async () => {
+    const res = await request(app).get("/api/shots/abc");
+    expect(res.status).toBe(400);
+  });
+});
+
+describe("getRandomShot", () => {
+  it("is deterministic given a fixed rng", () => {
+    expect(getRandomShot(() => 0)).toEqual(shots[0]);
+  });
+
+  it("excludes the requested shot id", () => {
+    const result = getRandomShot(() => 0, { excludeId: shots[0].id });
+    expect(result.id).not.toBe(shots[0].id);
   });
 });

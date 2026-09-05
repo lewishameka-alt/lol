@@ -1,12 +1,12 @@
-# lol
+# Lewis
 
-A tiny full-stack developer joke generator, used to exercise a complete Cloud Agent
-development environment end to end.
+Photorealistic Instagram shot studio for **Lewis Hameka**.
 
-- **`@lol/server`** — an [Express](https://expressjs.com/) + TypeScript JSON API.
-- **`@lol/web`** — a [Vite](https://vite.dev/) + [React](https://react.dev/) + TypeScript client.
+The goal: every prompt should produce images that look like a normal phone photo of a
+19-year-old bloke in regional Victoria — not AI. Realism always wins.
 
-The web client fetches a random joke from the API and lets you reveal the punchline.
+- **`@lol/server`** — Express + TypeScript API (profile, categories, shot prompts)
+- **`@lol/web`** — Vite + React client for browsing shots and copying prompts
 
 ## Requirements
 
@@ -21,7 +21,14 @@ npm run dev   # start API (:3001) and web client (:5173) together
 ```
 
 Then open http://localhost:5173. The Vite dev server proxies `/api/*` to the API on
-port `3001`, so no extra configuration is needed.
+port `3001`.
+
+## How generation works
+
+1. Pick a category (selfie, mirror, gym, car, dog, casual, work, nights out).
+2. Copy the ready-made prompt — it already locks height, build, location, and phone-photo realism.
+3. In Cursor chat, upload reference photos of Lewis and ask for variations of that shot.
+4. Match face/body from refs; keep lighting natural; no text overlays unless asked.
 
 ## Project layout
 
@@ -47,6 +54,8 @@ packages/
 | Method | Path | Description |
 | --- | --- | --- |
 | GET | `/api/health` | Liveness probe |
-| GET | `/api/jokes` | List all jokes |
-| GET | `/api/jokes/random` | Return a random joke |
-| GET | `/api/jokes/:id` | Return a joke by id |
+| GET | `/api/profile` | Lewis subject + style rules |
+| GET | `/api/categories` | Shot categories |
+| GET | `/api/shots` | List shots (`?category=` optional) |
+| GET | `/api/shots/random` | Random shot (`?exclude=` / `?category=`) |
+| GET | `/api/shots/:id` | Shot by id |

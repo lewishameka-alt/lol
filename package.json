@@ -2,7 +2,7 @@
   "name": "lol",
   "version": "1.0.0",
   "private": true,
-  "description": "A tiny full-stack joke app: Express API + Vite/React web client.",
+  "description": "Photorealistic Instagram shot studio for Lewis Hameka.",
   "workspaces": [
     "packages/server",
     "packages/web"
