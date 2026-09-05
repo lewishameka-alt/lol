@@ -2,6 +2,12 @@ import express, { type Express } from "express";
 import cors from "cors";
 import { lewis } from "./profile.js";
 import {
+  getLewisReferenceLibrary,
+  getSettingsReferenceLibrary,
+  lewisRefsDir,
+  settingsRefsDir,
+} from "./references.js";
+import {
   getRandomShot,
   getShotById,
   isShotCategory,
@@ -15,6 +21,8 @@ export function createApp(): Express {
 
   app.use(cors());
   app.use(express.json());
+  app.use("/references/lewis", express.static(lewisRefsDir));
+  app.use("/references/settings", express.static(settingsRefsDir));
 
   app.get("/api/health", (_req, res) => {
     res.json({ status: "ok", uptime: process.uptime() });
@@ -22,6 +30,21 @@ export function createApp(): Express {
 
   app.get("/api/profile", (_req, res) => {
     res.json(lewis);
+  });
+
+  app.get("/api/references", (_req, res) => {
+    res.json({
+      lewis: getLewisReferenceLibrary(),
+      settings: getSettingsReferenceLibrary(),
+    });
+  });
+
+  app.get("/api/references/lewis", (_req, res) => {
+    res.json(getLewisReferenceLibrary());
+  });
+
+  app.get("/api/references/settings", (_req, res) => {
+    res.json(getSettingsReferenceLibrary());
   });
 
   app.get("/api/categories", (_req, res) => {

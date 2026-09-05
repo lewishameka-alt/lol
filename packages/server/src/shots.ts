@@ -101,7 +101,7 @@ export const shots: Shot[] = [
     lighting: "Cool morning window light on one side of the face",
     prompt: buildPrompt({
       scene:
-        "Casual morning selfie in a messy-but-real bedroom. Wearing a plain faded tee. Natural expression, half-smile, not posing hard.",
+        "Casual morning selfie in a messy-but-real bedroom. Wearing a plain faded tee and sunglasses on his face. Natural expression, half-smile, not posing hard.",
       framing:
         "Front camera, arm extended, slight wide-angle selfie distortion, eyes toward the lens.",
       lighting: "Soft side window light, shadows under the chin, nothing flattering on purpose.",
@@ -111,13 +111,13 @@ export const shots: Shot[] = [
     id: 2,
     category: "selfie",
     title: "Carpark sun selfie",
-    vibe: "Squinting in daylight",
+    vibe: "Bright daylight, shades on",
     setting: "Outdoor carpark, pale sky",
     framing: "Close selfie, forehead to mid-chest",
     lighting: "Harsh midday Aussie sun",
     prompt: buildPrompt({
       scene:
-        "Standing outside after getting out of the car. Sunglasses pushed up into his hair or held in hand. Mild squint from real sun.",
+        "Standing outside after getting out of the car. Sunglasses firmly on his face (mandatory). Casual tee, real sun glare on the lenses.",
       framing: "Tight front-camera selfie, phone held a bit low.",
       lighting: "Bright harsh daylight, blown highlights on skin edges, realistic contrast.",
     }),
@@ -132,7 +132,7 @@ export const shots: Shot[] = [
     lighting: "Warm lamp + TV glow mix",
     prompt: buildPrompt({
       scene:
-        "Laid back on a couch in trackies and a hoodie, taking a quick selfie. Slightly messy hair, relaxed face.",
+        "Laid back on a couch in trackies and a hoodie, taking a quick selfie. Slightly messy hair, sunglasses on, relaxed face.",
       framing: "Front camera, chin slightly down, living room depth behind him.",
       lighting: "Mixed indoor evening light — lamp warmth and cool screen spill.",
     }),
@@ -147,7 +147,7 @@ export const shots: Shot[] = [
     lighting: "Overhead bathroom LEDs",
     prompt: buildPrompt({
       scene:
-        "Mirror selfie in a normal Australian bathroom. Nice casual shirt or clean hoodie, jeans. Phone visible in the reflection.",
+        "Mirror selfie in a normal Australian bathroom. Nice casual shirt or clean hoodie, jeans, sunglasses on his face. Phone visible in the reflection.",
       framing:
         "Vertical mirror shot from waist or mid-thigh up, phone held at chest height, face partly behind phone is fine.",
       lighting: "Flat bathroom overhead light with mild yellow cast — not beauty lighting.",
@@ -164,7 +164,7 @@ export const shots: Shot[] = [
     lighting: "Daylight through curtains",
     prompt: buildPrompt({
       scene:
-        "Standing in front of a cheap full-length mirror propped against the wall. Casual outfit — jeans and a thrifted jacket or flannel.",
+        "Standing in front of a cheap full-length mirror propped against the wall. Casual outfit — jeans and a thrifted jacket or flannel. Sunglasses on.",
       framing: "Phone in one hand, body slightly angled, tall 6'2\" frame readable in the mirror.",
       lighting: "Diffused daylight through thin curtains, soft shadows.",
     }),
@@ -179,7 +179,7 @@ export const shots: Shot[] = [
     lighting: "Harsh gym fluorescents",
     prompt: buildPrompt({
       scene:
-        "Sweaty after lifting. Gym singlet or plain tee, earbuds in. Athletic skinny build visible — lean, not bodybuilder.",
+        "Sweaty after lifting. Gym singlet or plain tee, earbuds in, sunglasses on his face. Athletic skinny build visible — lean, not bodybuilder.",
       framing: "Gym mirror selfie, phone in hand, racks and machines softly in background.",
       lighting: "Ugly real gym fluorescent lighting, slight skin shine from sweat — keep it honest.",
       extras: "No fitness-influencer posing grid. Just a normal bloke mid-session.",
@@ -195,7 +195,7 @@ export const shots: Shot[] = [
     lighting: "Golden hour fading to blue hour",
     prompt: buildPrompt({
       scene:
-        "Leaving the gym with a duffel or backpack. Gym clothes, slightly flushed. Tall lean frame against the carpark.",
+        "Leaving the gym with a duffel or backpack. Gym clothes, sunglasses on, slightly flushed. Tall lean frame against the carpark.",
       framing: "Casual three-quarter shot as if a mate took it, or a selfie with gym doors behind.",
       lighting: "Late afternoon / early evening outdoor light, natural colour.",
     }),
@@ -210,7 +210,7 @@ export const shots: Shot[] = [
     lighting: "Daylight through windscreen",
     prompt: buildPrompt({
       scene:
-        "Sitting in the driver's seat of an ordinary car (sedan or ute). One hand on the wheel or phone. Cap optional. Seatbelt detail ok.",
+        "Sitting in the driver's seat of an ordinary car (sedan or ute). Sunglasses on. One hand on the wheel or phone. Cap optional. Seatbelt detail ok.",
       framing: "Classic car selfie, steering wheel and dash partially visible, slight wide-angle.",
       lighting: "Bright windscreen light on the face, darker cabin corners.",
     }),
@@ -225,7 +225,7 @@ export const shots: Shot[] = [
     lighting: "Side window daylight",
     prompt: buildPrompt({
       scene:
-        "In the passenger seat on a regional drive. Hoodie, earbuds, looking out or toward camera with a small smirk.",
+        "In the passenger seat on a regional drive. Hoodie, earbuds, sunglasses on, looking out or toward camera with a small smirk.",
       framing: "Phone photo from the driver's side or a casual angled selfie — road blur through the window.",
       lighting: "Strong side window light, moving car feel, slight motion softness acceptable.",
     }),
@@ -240,8 +240,8 @@ export const shots: Shot[] = [
     lighting: "Late afternoon golden light",
     prompt: buildPrompt({
       scene:
-        "In a real backyard with his dog — grass, fence, ordinary Aussie house behind. Smiling naturally at the dog or camera. Casual shorts and tee.",
-      framing: "Phone photo at dog height or slightly above, both faces readable, tall guy folding down to the dog.",
+        "In a real backyard with his dog — grass, fence, ordinary Aussie house behind. Smiling naturally at the dog or camera. Casual shorts and tee, sunglasses on.",
+      framing: "Phone photo at dog height or slightly above, Lewis (in sunglasses) and the dog both readable, tall guy folding down to the dog.",
       lighting: "Golden hour backyard light, long soft shadows.",
       extras: "Real dog fur texture, no breed fantasy gloss — like a normal family dog.",
     }),
@@ -256,7 +256,7 @@ export const shots: Shot[] = [
     lighting: "Overcast soft daylight",
     prompt: buildPrompt({
       scene:
-        "Walking the dog on a lead. Hoodie, runners. Dog near his legs in frame. Trees or quiet street behind.",
+        "Walking the dog on a lead. Hoodie, runners, sunglasses on. Dog near his legs in frame. Trees or quiet street behind.",
       framing: "Classic high-angle front-camera selfie including the dog's head.",
       lighting: "Soft overcast daylight, muted natural colours.",
     }),
@@ -271,7 +271,7 @@ export const shots: Shot[] = [
     lighting: "Window over the sink",
     prompt: buildPrompt({
       scene:
-        "Leaning on a kitchen bench with a coffee or soft drink. Sleepy casual clothes. Real messy kitchen details — not a styled set.",
+        "Leaning on a kitchen bench with a coffee or soft drink. Sleepy casual clothes, sunglasses on. Real messy kitchen details — not a styled set.",
       framing: "Casual waist-up composition, slightly off-centre like a quick snap.",
       lighting: "Natural window light from the side, indoor shadows.",
     }),
@@ -286,7 +286,7 @@ export const shots: Shot[] = [
     lighting: "Bright outdoor",
     prompt: buildPrompt({
       scene:
-        "Walking down a regional town street — shops, brick, parked cars. Jeans, sneakers, simple jacket. Looking mid-conversation or at phone.",
+        "Walking down a regional town street — shops, brick, parked cars. Jeans, sneakers, simple jacket, sunglasses on. Looking mid-conversation or at phone. Any bystanders must not resemble mates from reference photos.",
       framing: "Candid-style phone photo, environmental portrait, tall proportions clear.",
       lighting: "Clear daylight, realistic Aussie colour — not teal-orange grade.",
     }),
@@ -301,7 +301,7 @@ export const shots: Shot[] = [
     lighting: "Midday sun or shade under a verandah",
     prompt: buildPrompt({
       scene:
-        "On a smoko break at a regional job — dusty boots, work pants, plain tee or light hi-vis layer. Holding a drink. Tired honest face.",
+        "On a smoko break at a regional job — dusty boots, work pants, plain tee or light hi-vis layer, sunglasses on. Holding a drink. Tired honest face. Coworkers in frame (if any) must be invented strangers, not mates from refs.",
       framing: "Quick phone snap, environment reads as real Australian work, not construction stock photo.",
       lighting: "Harsh sun or verandah shade — pick one and keep it real.",
     }),
@@ -316,7 +316,7 @@ export const shots: Shot[] = [
     lighting: "Late day sun",
     prompt: buildPrompt({
       scene:
-        "End of shift, leaning against a ute or work car. Dusty clothes, tall lean frame. Soft tired smile.",
+        "End of shift, leaning against a ute or work car. Dusty clothes, sunglasses on, tall lean frame. Soft tired smile.",
       framing: "Three-quarter environmental photo as if a coworker took it on a phone.",
       lighting: "Warm late-day sun, long shadows on asphalt.",
     }),
@@ -331,7 +331,7 @@ export const shots: Shot[] = [
     lighting: "Warm indoor bar lights",
     prompt: buildPrompt({
       scene:
-        "At a regional pub. Clean casual shirt or polo. Holding a schooner or soft drink. Soft smile, real social energy — not club VIP.",
+        "At a regional pub. Clean casual shirt or polo, sunglasses on. Holding a schooner or soft drink. Soft smile, real social energy — not club VIP. Mates in frame must be completely different people from anyone in reference photos.",
       framing: "Close phone photo across a table or a booth selfie, background lightly busy and out of focus.",
       lighting: "Warm tungsten / pub LEDs, mild noise/grain from low light phone photo.",
     }),
@@ -346,7 +346,7 @@ export const shots: Shot[] = [
     lighting: "Phone flash or streetlight",
     prompt: buildPrompt({
       scene:
-        "Outside at night after being out. Jacket on, hair a bit messy. Honest end-of-night face.",
+        "Outside at night after being out. Jacket on, hair a bit messy, sunglasses still on his face. Honest end-of-night face.",
       framing: "Front-camera flash selfie or streetlight three-quarter — phone night photo artefacts welcome.",
       lighting: "Harsh phone flash OR dim streetlight with grain — pick one realistic phone look.",
       extras: "Slight noise, imperfect white balance — classic Instagram night snap.",
@@ -362,7 +362,7 @@ export const shots: Shot[] = [
     lighting: "Golden hour",
     prompt: buildPrompt({
       scene:
-        "Leaning on a fence at golden hour in regional Victoria — paddock or quiet street behind. Simple tee, relaxed posture.",
+        "Leaning on a fence at golden hour in regional Victoria — paddock or quiet street behind. Simple tee, sunglasses on, relaxed posture.",
       framing: "Mate-taken phone portrait, vertical, head-to-waist or three-quarter.",
       lighting: "True golden hour warmth, sun low behind or side — natural lens flare ok if subtle.",
     }),

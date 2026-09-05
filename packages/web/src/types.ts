@@ -38,3 +38,34 @@ export interface LewisProfile {
   consistencyLocks: string[];
   avoid: string[];
 }
+
+export interface LewisReferencePhoto {
+  id: string;
+  file: string;
+  kind: "solo" | "group" | "crowd";
+  note: string;
+  url: string;
+}
+
+export interface SettingReferencePhoto {
+  id: string;
+  file: string;
+  vibe: string;
+  note: string;
+  url: string;
+}
+
+export interface ReferencesPayload {
+  lewis: {
+    library: "lewis";
+    subject: string;
+    count: number;
+    photos: LewisReferencePhoto[];
+  };
+  settings: {
+    library: "settings";
+    purpose: string;
+    count: number;
+    photos: SettingReferencePhoto[];
+  };
+}

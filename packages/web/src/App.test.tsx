@@ -48,6 +48,42 @@ beforeEach(() => {
           }),
         };
       }
+      if (url.includes("/api/references")) {
+        return {
+          ok: true,
+          status: 200,
+          json: async () => ({
+            lewis: {
+              library: "lewis",
+              subject: "Lewis Hameka",
+              count: 1,
+              photos: [
+                {
+                  id: "lewis-01",
+                  file: "lewis-01.jpg",
+                  kind: "solo",
+                  note: "Solo ref",
+                  url: "/references/lewis/lewis-01.jpg",
+                },
+              ],
+            },
+            settings: {
+              library: "settings",
+              purpose: "Backgrounds only",
+              count: 1,
+              photos: [
+                {
+                  id: "setting-01",
+                  file: "setting-01.jpg",
+                  vibe: "night-out",
+                  note: "Party flash",
+                  url: "/references/settings/setting-01.jpg",
+                },
+              ],
+            },
+          }),
+        };
+      }
       return {
         ok: true,
         status: 200,
@@ -71,10 +107,11 @@ describe("App", () => {
     });
   });
 
-  it("shows the generation prompt", async () => {
+  it("shows identity and settings reference sections", async () => {
     render(<App />);
     await waitFor(() => {
-      expect(screen.getByDisplayValue(sampleShot.prompt)).toBeInTheDocument();
+      expect(screen.getByText("Lewis identity refs")).toBeInTheDocument();
+      expect(screen.getByText("Background & setting refs")).toBeInTheDocument();
     });
   });
 });

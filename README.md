@@ -26,9 +26,10 @@ port `3001`.
 ## How generation works
 
 1. Pick a category (selfie, mirror, gym, car, dog, casual, work, nights out).
-2. Copy the ready-made prompt — it already locks height, build, location, and phone-photo realism.
+2. Copy the ready-made prompt — it already locks height, build, location, sunglasses, and phone-photo realism.
 3. In Cursor chat, upload reference photos of Lewis and ask for variations of that shot.
-4. Match face/body from refs; keep lighting natural; no text overlays unless asked.
+4. Match Lewis only from refs. Sunglasses on his face in every photo. Never recreate mates from refs — invent different people.
+5. Keep lighting natural; no text overlays unless asked.
 
 ## Project layout
 
