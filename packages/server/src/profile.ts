@@ -34,7 +34,8 @@ export const lewis: LewisProfile = {
   consistencyLocks: [
     "Same young man in every shot: Lewis Hameka, 19, ~188 cm / 6'2\", ~73 kg, athletic skinny build",
     "Match references/lewis photos for Lewis only — short dark textured crop, defined jaw, light stubble, lean tall frame",
-    "Sunglasses ON his face in 100% of photos — black thick rectangular / wrap frames with dark lenses, indoor and outdoor, day and night",
+    "Tattoos when shirtless/visible: HAMEKA lettering across upper chest/base of throat, two swallow birds on left upper chest",
+    "Sunglasses ON his face in 100% of photos — black thick rectangular / wrap frames with dark lenses (some refs are bare-eye for structure only; generations still require shades)",
     "Silver metal watch often on left wrist; casual Aussie fits (white/cream tees, linen, oversized)",
     "Other people in frame must be total strangers vs any mates in reference uploads — different faces, hair, builds, clothes",
     "Regional Victoria everyday bloke vibe — casual Aussie, not fashion-editorial or influencer polish",
@@ -56,8 +57,8 @@ export function subjectLock(): string {
   return [
     `Photorealistic candid Instagram photo of ${lewis.name}, a real ${lewis.age}-year-old bloke from ${lewis.location}.`,
     `He is ${lewis.heightFtIn} (${lewis.heightCm} cm), ${lewis.weightKg} kg, ${lewis.build}.`,
-    "Match Lewis from the references/lewis library exactly — short dark textured crop hair, defined jaw, light stubble, lean tall frame, black thick rectangular/wrap sunglasses.",
-    "HARD LOCK: he is wearing sunglasses on his face in this photo. Eyes covered. Never bare eyes. Never sunglasses on his head, shirt, or in his hand.",
+    "Match Lewis from the references/lewis library exactly — short dark textured crop hair, defined jaw, light stubble, lean tall frame, black thick rectangular/wrap sunglasses, HAMEKA + swallow chest tattoos when visible.",
+    "HARD LOCK: he is wearing sunglasses on his face in this photo. Eyes covered. Never bare eyes. Never sunglasses on his head, shirt, or in his hand. (Some identity refs are bare-eye for structure only — generations always keep shades on.)",
     "If any other people appear: they must be completely different people from anyone in the reference photos — do not recreate or resemble his mates.",
     "Backgrounds/vibes may follow references/settings for place, lighting, and phone-photo texture only — never copy people from settings refs.",
     "Looks completely real, as if taken on an iPhone by a mate or as a casual selfie. Slight natural grain, natural colour science, imperfect real-world lighting.",

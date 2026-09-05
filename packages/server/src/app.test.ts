@@ -42,7 +42,7 @@ describe("GET /api/references", () => {
   it("returns lewis and settings libraries", async () => {
     const res = await request(app).get("/api/references");
     expect(res.status).toBe(200);
-    expect(res.body.lewis.count).toBe(30);
+    expect(res.body.lewis.count).toBe(39);
     expect(res.body.settings.count).toBe(10);
     expect(res.body.lewis.photos[0].url).toMatch(/^\/references\/lewis\//);
     expect(res.body.settings.photos[0].url).toMatch(/^\/references\/settings\//);

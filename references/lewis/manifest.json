@@ -1,15 +1,16 @@
 {
   "subject": "Lewis Hameka",
-  "version": 2,
+  "version": 3,
   "appearance": {
-    "hair": "Short dark brown textured crop, slightly messy on top, shorter sides; sometimes straighter fringe",
-    "face": "Defined jawline, lean face, light stubble / thin mustache sometimes",
-    "sunglasses": "Black thick rectangular or wrap-around frames, dark lenses, ALWAYS on face",
+    "hair": "Short dark brown textured crop / French crop fringe, sometimes longer mullet waves at back",
+    "face": "Defined jawline, lean face, light stubble / thin mustache sometimes, dark brows",
+    "sunglasses": "Black thick rectangular or sport wrap frames, dark opaque lenses, ALWAYS on face in generations; sometimes silver V/arrow logo on temple or white accents on bridge",
     "build": "Tall ~6'2\" / 188cm, athletic skinny ~73kg, long limbs",
-    "style": "Casual Aussie \u2014 white/cream tees, linen, hoodies, oversized fits, silver metal watch often"
+    "style": "Casual Aussie \u2014 white/cream tees, linen, hoodies, oversized fits, silver metal watch often",
+    "tattoos": "HAMEKA in bold caps across upper chest/base of throat; two swallow birds on left upper chest/shoulder"
   },
   "rules": {
-    "sunglasses": "ON face in every generated photo \u2014 never bare eyes",
+    "sunglasses": "ON face in every generated photo \u2014 never bare eyes (even if some refs show bare eyes for structure)",
     "mates": "People other than Lewis in these refs must NEVER be recreated or resembled"
   },
   "photos": [
@@ -192,6 +193,60 @@
       "file": "lewis-30.jpg",
       "kind": "solo",
       "note": "Additional Lewis identity lock \u2014 shades on"
+    },
+    {
+      "id": "lewis-31",
+      "file": "lewis-31.jpg",
+      "kind": "solo",
+      "note": "Indoor mirror selfie, argyle knit, black shades with silver temple logo"
+    },
+    {
+      "id": "lewis-32",
+      "file": "lewis-32.jpg",
+      "kind": "solo",
+      "note": "Indoor selfie vs beige curtains, sport wrap shades with white bridge accents"
+    },
+    {
+      "id": "lewis-33",
+      "file": "lewis-33.jpg",
+      "kind": "solo",
+      "note": "Car passenger selfie, charcoal work jacket, thick black rectangular shades, seatbelt on"
+    },
+    {
+      "id": "lewis-34",
+      "file": "lewis-34.jpg",
+      "kind": "solo",
+      "note": "Bedroom high-angle selfie on yellow bedspread, white tee, wrap shades, silver watch, hot cross buns"
+    },
+    {
+      "id": "lewis-35",
+      "file": "lewis-35.jpg",
+      "kind": "solo",
+      "note": "Bare-eye side profile for jaw/neck structure only \u2014 generations still require shades"
+    },
+    {
+      "id": "lewis-36",
+      "file": "lewis-36.jpg",
+      "kind": "solo",
+      "note": "Bare-eye low-angle shirtless selfie \u2014 structure + swallow chest tattoo; generations still require shades"
+    },
+    {
+      "id": "lewis-37",
+      "file": "lewis-37.jpg",
+      "kind": "solo",
+      "note": "Bare-eye shirtless \u2014 HAMEKA neck/chest lettering + swallow tattoos clear; generations still require shades"
+    },
+    {
+      "id": "lewis-38",
+      "file": "lewis-38.jpg",
+      "kind": "group",
+      "note": "Bonds Outlet dusk fit check \u2014 Lewis left cream tee + shades; mate NOT a likeness ref"
+    },
+    {
+      "id": "lewis-39",
+      "file": "lewis-39.jpg",
+      "kind": "solo",
+      "note": "Blue-hour sidewalk portrait, white tee, oval black shades, silver watch, picket fence"
     }
   ]
 }

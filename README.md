@@ -27,7 +27,7 @@ port `3001`.
 
 | Folder | Purpose |
 | --- | --- |
-| `references/lewis/` | Identity lock — face, hair, body, sunglasses style (30 photos) |
+| `references/lewis/` | Identity lock — face, hair, body, tattoos, sunglasses style (39 photos) |
 | `references/settings/` | Backgrounds & vibes only — place, lighting, flash look (10 photos) |
 
 Rules:
