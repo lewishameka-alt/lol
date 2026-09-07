@@ -8,3 +8,4 @@ Made for phone viewing on GitHub (chat image loading can fail).
 - [Batch 016 — court paparazzi (20)](./batch-016-court/INDEX.md)
 - [Batch 017 — court paparazzi (25)](./batch-017-court/INDEX.md)
 - [Batch 018 — court paparazzi](./batch-018-court/INDEX.md)
+- [Batch 019 — Magistrates Court paparazzi (50)](./batch-019-magistrates/INDEX.md)
