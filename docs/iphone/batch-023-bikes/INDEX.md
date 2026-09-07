@@ -1,6 +1,6 @@
 # Batch 023 — standing around motorbikes
 
-20 shots. Vest mates + fleece bandanas. Packed motorbike meets.
+20 completed shots. Vest mates + fleece bandanas. Packed motorbike meets.
 
 [PHONE_VIEW](./PHONE_VIEW.md)
 
