@@ -1,4 +1,4 @@
-# Court paparazzi 1171–1207
+# Court paparazzi 1171–1198
 
 [← Index](./INDEX.md)
 
@@ -32,6 +32,18 @@
 
 [Full size](./shots/lewis-court-1175.jpg)
 
+## 1178 — Melbourne court exit paparazzi 1178
+
+![1178](./shots/lewis-court-1178.jpg)
+
+[Full size](./shots/lewis-court-1178.jpg)
+
+## 1179 — Melbourne court exit paparazzi 1179
+
+![1179](./shots/lewis-court-1179.jpg)
+
+[Full size](./shots/lewis-court-1179.jpg)
+
 ## 1181 — Melbourne court exit paparazzi 1181
 
 ![1181](./shots/lewis-court-1181.jpg)
@@ -55,6 +67,18 @@
 ![1185](./shots/lewis-court-1185.jpg)
 
 [Full size](./shots/lewis-court-1185.jpg)
+
+## 1187 — Melbourne court exit paparazzi 1187
+
+![1187](./shots/lewis-court-1187.jpg)
+
+[Full size](./shots/lewis-court-1187.jpg)
+
+## 1189 — Melbourne court exit paparazzi 1189
+
+![1189](./shots/lewis-court-1189.jpg)
+
+[Full size](./shots/lewis-court-1189.jpg)
 
 ## 1191 — Melbourne court exit paparazzi 1191
 
@@ -86,41 +110,17 @@
 
 [Full size](./shots/lewis-court-1195.jpg)
 
-## 1201 — Melbourne court exit paparazzi 1201
+## 1197 — Melbourne court exit paparazzi 1197
 
-![1201](./shots/lewis-court-1201.jpg)
+![1197](./shots/lewis-court-1197.jpg)
 
-[Full size](./shots/lewis-court-1201.jpg)
+[Full size](./shots/lewis-court-1197.jpg)
 
-## 1202 — Melbourne court exit paparazzi 1202
+## 1198 — Melbourne court exit paparazzi 1198
 
-![1202](./shots/lewis-court-1202.jpg)
+![1198](./shots/lewis-court-1198.jpg)
 
-[Full size](./shots/lewis-court-1202.jpg)
-
-## 1203 — Melbourne court exit paparazzi 1203
-
-![1203](./shots/lewis-court-1203.jpg)
-
-[Full size](./shots/lewis-court-1203.jpg)
-
-## 1204 — Melbourne court exit paparazzi 1204
-
-![1204](./shots/lewis-court-1204.jpg)
-
-[Full size](./shots/lewis-court-1204.jpg)
-
-## 1205 — Melbourne court exit paparazzi 1205
-
-![1205](./shots/lewis-court-1205.jpg)
-
-[Full size](./shots/lewis-court-1205.jpg)
-
-## 1207 — Melbourne court exit paparazzi 1207
-
-![1207](./shots/lewis-court-1207.jpg)
-
-[Full size](./shots/lewis-court-1207.jpg)
+[Full size](./shots/lewis-court-1198.jpg)
 
 
 [← Index](./INDEX.md)
