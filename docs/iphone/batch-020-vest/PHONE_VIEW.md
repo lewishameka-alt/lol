@@ -2,7 +2,7 @@
 
 [Index](./INDEX.md)
 
-29 / 50 shots ready.
+32 / 50 shots ready.
 
 ## 1321 — pub booth night flash
 
@@ -72,6 +72,10 @@
 
 ![1346](./shots/lewis-vest-1346.jpg)
 
+## 1347 — warehouse rave edge
+
+![1347](./shots/lewis-vest-1347.jpg)
+
 ## 1351 — truckstop diner
 
 ![1351](./shots/lewis-vest-1351.jpg)
@@ -91,6 +95,10 @@
 ## 1355 — rainy bus shelter
 
 ![1355](./shots/lewis-vest-1355.jpg)
+
+## 1356 — skatepark afternoon
+
+![1356](./shots/lewis-vest-1356.jpg)
 
 ## 1357 — mechanic pit lean
 
@@ -119,4 +127,8 @@
 ## 1366 — mates poker night
 
 ![1366](./shots/lewis-vest-1366.jpg)
+
+## 1367 — underpass graffiti
+
+![1367](./shots/lewis-vest-1367.jpg)
 
