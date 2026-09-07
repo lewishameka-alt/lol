@@ -1,6 +1,18 @@
-# Court paparazzi 1212–1219
+# Court paparazzi 1209–1219
 
 [← Index](./INDEX.md)
+
+## 1209 — Melbourne court exit paparazzi 1209
+
+![1209](./shots/lewis-court-1209.jpg)
+
+[Full size](./shots/lewis-court-1209.jpg)
+
+## 1211 — Melbourne court exit paparazzi 1211
+
+![1211](./shots/lewis-court-1211.jpg)
+
+[Full size](./shots/lewis-court-1211.jpg)
 
 ## 1212 — Melbourne court exit paparazzi 1212
 
