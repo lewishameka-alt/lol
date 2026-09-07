@@ -1,4 +1,4 @@
-# Batch 018 — court paparazzi
+# Batch 018 — all court paparazzi shots
 
 [Index](./INDEX.md)
 

@@ -2,7 +2,7 @@
 
 Tap to open/save on iPhone.
 
-**Completed:** 50 / 50 daytime court-exit shots.
+**Completed:** 50 daytime court-exit shots.
 
 ## Pages
 
