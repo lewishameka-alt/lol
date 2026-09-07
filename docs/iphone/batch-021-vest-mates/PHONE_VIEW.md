@@ -2,7 +2,7 @@
 
 [Index](./INDEX.md)
 
-33 / 50 shots ready.
+50 / 50 shots ready.
 
 ## 1371 — pub booth round of beers
 
@@ -64,6 +64,26 @@
 
 ![1385](./shots/lewis-vestmates-1385.jpg)
 
+## 1386 — bottle-o carpark
+
+![1386](./shots/lewis-vestmates-1386.jpg)
+
+## 1387 — campfire rural
+
+![1387](./shots/lewis-vestmates-1387.jpg)
+
+## 1388 — tattoo shop wait NO ink
+
+![1388](./shots/lewis-vestmates-1388.jpg)
+
+## 1389 — train platform crew
+
+![1389](./shots/lewis-vestmates-1389.jpg)
+
+## 1390 — laundromat hang
+
+![1390](./shots/lewis-vestmates-1390.jpg)
+
 ## 1391 — hardware carpark
 
 ![1391](./shots/lewis-vestmates-1391.jpg)
@@ -120,6 +140,30 @@
 
 ![1404](./shots/lewis-vestmates-1404.jpg)
 
+## 1405 — taxi rank CBD
+
+![1405](./shots/lewis-vestmates-1405.jpg)
+
+## 1406 — beach carpark wind
+
+![1406](./shots/lewis-vestmates-1406.jpg)
+
+## 1407 — festival day crew
+
+![1407](./shots/lewis-vestmates-1407.jpg)
+
+## 1408 — op shop street
+
+![1408](./shots/lewis-vestmates-1408.jpg)
+
+## 1409 — gaming cafe neon
+
+![1409](./shots/lewis-vestmates-1409.jpg)
+
+## 1410 — mates selfie couch
+
+![1410](./shots/lewis-vestmates-1410.jpg)
+
 ## 1411 — backseat car night
 
 ![1411](./shots/lewis-vestmates-1411.jpg)
@@ -135,4 +179,28 @@
 ## 1414 — riverside dusk walk
 
 ![1414](./shots/lewis-vestmates-1414.jpg)
+
+## 1415 — esky park day
+
+![1415](./shots/lewis-vestmates-1415.jpg)
+
+## 1416 — darts board pub
+
+![1416](./shots/lewis-vestmates-1416.jpg)
+
+## 1417 — motorbike row lean
+
+![1417](./shots/lewis-vestmates-1417.jpg)
+
+## 1418 — smoke break work ute
+
+![1418](./shots/lewis-vestmates-1418.jpg)
+
+## 1419 — mates mirror bathroom
+
+![1419](./shots/lewis-vestmates-1419.jpg)
+
+## 1420 — final clubhouse cheers
+
+![1420](./shots/lewis-vestmates-1420.jpg)
 

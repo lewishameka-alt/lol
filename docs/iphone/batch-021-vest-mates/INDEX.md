@@ -1,6 +1,6 @@
 # Batch 021 — vest mates, long sleeves, no tattoos
 
-50 shots. Lewis + invented mates in similar vests. Long sleeves only. No tattoos.
+50 completed shots. Lewis + invented mates in similar vests. Long sleeves only. No tattoos.
 
 [PHONE_VIEW](./PHONE_VIEW.md)
 
