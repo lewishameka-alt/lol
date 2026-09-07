@@ -12,3 +12,4 @@ Made for phone viewing on GitHub (chat image loading can fail).
 - [Batch 020 — Lewis in the vest (50)](./batch-020-vest/INDEX.md)
 - [Batch 021 — vest mates long sleeves no tattoos (50)](./batch-021-vest-mates/INDEX.md)
 - [Batch 022 — fleece bandanas naughty candid (20)](./batch-022-bandana/INDEX.md)
+- [Batch 023 — standing around motorbikes (20)](./batch-023-bikes/INDEX.md)
