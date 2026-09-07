@@ -22,6 +22,22 @@
 
 ![1225](./shots/lewis-court-1225.jpg)
 
+## 1227
+
+![1227](./shots/lewis-court-1227.jpg)
+
+## 1228
+
+![1228](./shots/lewis-court-1228.jpg)
+
+## 1229
+
+![1229](./shots/lewis-court-1229.jpg)
+
+## 1230
+
+![1230](./shots/lewis-court-1230.jpg)
+
 ## 1231
 
 ![1231](./shots/lewis-court-1231.jpg)
@@ -41,6 +57,18 @@
 ## 1235
 
 ![1235](./shots/lewis-court-1235.jpg)
+
+## 1236
+
+![1236](./shots/lewis-court-1236.jpg)
+
+## 1237
+
+![1237](./shots/lewis-court-1237.jpg)
+
+## 1238
+
+![1238](./shots/lewis-court-1238.jpg)
 
 ## 1241
 
@@ -78,6 +106,26 @@
 
 ![1255](./shots/lewis-court-1255.jpg)
 
+## 1256
+
+![1256](./shots/lewis-court-1256.jpg)
+
+## 1257
+
+![1257](./shots/lewis-court-1257.jpg)
+
+## 1258
+
+![1258](./shots/lewis-court-1258.jpg)
+
+## 1259
+
+![1259](./shots/lewis-court-1259.jpg)
+
+## 1260
+
+![1260](./shots/lewis-court-1260.jpg)
+
 ## 1261
 
 ![1261](./shots/lewis-court-1261.jpg)
@@ -97,6 +145,10 @@
 ## 1265
 
 ![1265](./shots/lewis-court-1265.jpg)
+
+## 1266
+
+![1266](./shots/lewis-court-1266.jpg)
 
 ## 1267
 
