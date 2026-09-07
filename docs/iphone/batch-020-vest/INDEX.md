@@ -1,6 +1,6 @@
 # Batch 020 — Lewis in the vest
 
-50 shots. Vest locked from user reference (right-side cut).
+50 completed shots. Vest locked from user reference (right-side cut).
 
 [PHONE_VIEW](./PHONE_VIEW.md)
 

@@ -2,7 +2,7 @@
 
 [Index](./INDEX.md)
 
-32 / 50 shots ready.
+50 / 50 shots ready.
 
 ## 1321 — pub booth night flash
 
@@ -32,6 +32,18 @@
 
 ![1327](./shots/lewis-vest-1327.jpg)
 
+## 1328 — footy club rooms
+
+![1328](./shots/lewis-vest-1328.jpg)
+
+## 1329 — cigarette outside pub
+
+![1329](./shots/lewis-vest-1329.jpg)
+
+## 1330 — passenger seat car selfie
+
+![1330](./shots/lewis-vest-1330.jpg)
+
 ## 1331 — garage workshop
 
 ![1331](./shots/lewis-vest-1331.jpg)
@@ -47,6 +59,30 @@
 ## 1334 — bottle-o carpark
 
 ![1334](./shots/lewis-vest-1334.jpg)
+
+## 1335 — kitchen morning coffee
+
+![1335](./shots/lewis-vest-1335.jpg)
+
+## 1336 — tattoo shop waiting
+
+![1336](./shots/lewis-vest-1336.jpg)
+
+## 1337 — petrol station night
+
+![1337](./shots/lewis-vest-1337.jpg)
+
+## 1338 — beach carpark windy
+
+![1338](./shots/lewis-vest-1338.jpg)
+
+## 1339 — gym carpark after
+
+![1339](./shots/lewis-vest-1339.jpg)
+
+## 1340 — mates BBQ table
+
+![1340](./shots/lewis-vest-1340.jpg)
 
 ## 1341 — hotel corridor flash
 
@@ -76,6 +112,18 @@
 
 ![1347](./shots/lewis-vest-1347.jpg)
 
+## 1348 — fish and chip shop
+
+![1348](./shots/lewis-vest-1348.jpg)
+
+## 1349 — riverside walk dusk
+
+![1349](./shots/lewis-vest-1349.jpg)
+
+## 1350 — gaming cafe neon
+
+![1350](./shots/lewis-vest-1350.jpg)
+
 ## 1351 — truckstop diner
 
 ![1351](./shots/lewis-vest-1351.jpg)
@@ -104,6 +152,18 @@
 
 ![1357](./shots/lewis-vest-1357.jpg)
 
+## 1358 — corner store slurpee
+
+![1358](./shots/lewis-vest-1358.jpg)
+
+## 1359 — festival day crowd
+
+![1359](./shots/lewis-vest-1359.jpg)
+
+## 1360 — boat ramp morning
+
+![1360](./shots/lewis-vest-1360.jpg)
+
 ## 1361 — boxing gym corner
 
 ![1361](./shots/lewis-vest-1361.jpg)
@@ -131,4 +191,16 @@
 ## 1367 — underpass graffiti
 
 ![1367](./shots/lewis-vest-1367.jpg)
+
+## 1368 — drive-thru window
+
+![1368](./shots/lewis-vest-1368.jpg)
+
+## 1369 — gym mirror pump
+
+![1369](./shots/lewis-vest-1369.jpg)
+
+## 1370 — front porch night flash
+
+![1370](./shots/lewis-vest-1370.jpg)
 
