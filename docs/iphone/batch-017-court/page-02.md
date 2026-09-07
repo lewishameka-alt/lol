@@ -1,6 +1,12 @@
-# Court paparazzi 1192–1213
+# Court paparazzi 1191–1210
 
 [← Index](./INDEX.md)
+
+## 1191 — Melbourne court exit paparazzi 1191
+
+![1191](./shots/lewis-court-1191.jpg)
+
+[Full size](./shots/lewis-court-1191.jpg)
 
 ## 1192 — Melbourne court exit paparazzi 1192
 
@@ -49,6 +55,12 @@
 ![1199](./shots/lewis-court-1199.jpg)
 
 [Full size](./shots/lewis-court-1199.jpg)
+
+## 1200 — Melbourne court exit paparazzi 1200
+
+![1200](./shots/lewis-court-1200.jpg)
+
+[Full size](./shots/lewis-court-1200.jpg)
 
 ## 1201 — Melbourne court exit paparazzi 1201
 
@@ -104,23 +116,11 @@
 
 [Full size](./shots/lewis-court-1209.jpg)
 
-## 1211 — Melbourne court exit paparazzi 1211
+## 1210 — Melbourne court exit paparazzi 1210
 
-![1211](./shots/lewis-court-1211.jpg)
+![1210](./shots/lewis-court-1210.jpg)
 
-[Full size](./shots/lewis-court-1211.jpg)
-
-## 1212 — Melbourne court exit paparazzi 1212
-
-![1212](./shots/lewis-court-1212.jpg)
-
-[Full size](./shots/lewis-court-1212.jpg)
-
-## 1213 — Melbourne court exit paparazzi 1213
-
-![1213](./shots/lewis-court-1213.jpg)
-
-[Full size](./shots/lewis-court-1213.jpg)
+[Full size](./shots/lewis-court-1210.jpg)
 
 
 [← Index](./INDEX.md)
