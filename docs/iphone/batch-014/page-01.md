@@ -1,4 +1,4 @@
-# Shots 816–835
+# Shots 816–852 (20 photos)
 
 [← Album index](./INDEX.md)
 
@@ -62,65 +62,65 @@
 
 [Open full size](./shots/lewis-0825.jpg)
 
-## 826 — Camperdown clock tower square night market
+## 842 — Dunkeld Grampians pub beer garden frost
 
-![826](./shots/lewis-0826.jpg)
+![842](./shots/lewis-0842.jpg)
 
-[Open full size](./shots/lewis-0826.jpg)
+[Open full size](./shots/lewis-0842.jpg)
 
-## 827 — Birregurra main street cafe footpath
+## 843 — Clunes booktown street browse
 
-![827](./shots/lewis-0827.jpg)
+![843](./shots/lewis-0843.jpg)
 
-[Open full size](./shots/lewis-0827.jpg)
+[Open full size](./shots/lewis-0843.jpg)
 
-## 828 — Casterton kelpie statue pub carpark
+## 844 — Eaglehawk Bendigo suburb bowls club bar
 
-![828](./shots/lewis-0828.jpg)
+![844](./shots/lewis-0844.jpg)
 
-[Open full size](./shots/lewis-0828.jpg)
+[Open full size](./shots/lewis-0844.jpg)
 
-## 829 — Boolarra rail trail bike rest
+## 845 — Cobden dairy heritage park day
 
-![829](./shots/lewis-0829.jpg)
+![845](./shots/lewis-0845.jpg)
 
-[Open full size](./shots/lewis-0829.jpg)
+[Open full size](./shots/lewis-0845.jpg)
 
-## 830 — Cobram Murray river pontoon night fishos
+## 846 — Euroa Ned Kelly mural laneway night
 
-![830](./shots/lewis-0830.jpg)
+![846](./shots/lewis-0846.jpg)
 
-[Open full size](./shots/lewis-0830.jpg)
+[Open full size](./shots/lewis-0846.jpg)
 
-## 831 — Bridgewater on Loddon weir swim
+## 847 — Daylesford lake daylesford paddle
 
-![831](./shots/lewis-0831.jpg)
+![847](./shots/lewis-0847.jpg)
 
-[Open full size](./shots/lewis-0831.jpg)
+[Open full size](./shots/lewis-0847.jpg)
 
-## 832 — Coleraine main street servo pie warmer
+## 848 — Foster corner inlet fish co-op night
 
-![832](./shots/lewis-0832.jpg)
+![848](./shots/lewis-0848.jpg)
 
-[Open full size](./shots/lewis-0832.jpg)
+[Open full size](./shots/lewis-0848.jpg)
 
-## 833 — Buninyong lookout tower climb rest
+## 849 — Donald Buloke shire lake foreshore
 
-![833](./shots/lewis-0833.jpg)
+![849](./shots/lewis-0849.jpg)
 
-[Open full size](./shots/lewis-0833.jpg)
+[Open full size](./shots/lewis-0849.jpg)
 
-## 834 — Corryong man from snowy river pub night
+## 850 — Gisborne Macedon ranges brewery taproom
 
-![834](./shots/lewis-0834.jpg)
+![850](./shots/lewis-0850.jpg)
 
-[Open full size](./shots/lewis-0834.jpg)
+[Open full size](./shots/lewis-0850.jpg)
 
-## 835 — Camperdown crater lakes lookout day
+## 852 — Hamilton pastoral museum carpark night
 
-![835](./shots/lewis-0835.jpg)
+![852](./shots/lewis-0852.jpg)
 
-[Open full size](./shots/lewis-0835.jpg)
+[Open full size](./shots/lewis-0852.jpg)
 
 
 [← Album index](./INDEX.md)

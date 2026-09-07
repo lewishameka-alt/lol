@@ -1,108 +1,6 @@
-# Shots 836–855
+# Shots 853–950 (20 photos)
 
 [← Album index](./INDEX.md)
-
-## 836 — Cowes Phillip Island jetty lights
-
-![836](./shots/lewis-0836.jpg)
-
-[Open full size](./shots/lewis-0836.jpg)
-
-## 837 — Cape Otway lightstation boardwalk day
-
-![837](./shots/lewis-0837.jpg)
-
-[Open full size](./shots/lewis-0837.jpg)
-
-## 838 — Creswick gold battery park night walk
-
-![838](./shots/lewis-0838.jpg)
-
-[Open full size](./shots/lewis-0838.jpg)
-
-## 839 — Castlemaine market building courtyard
-
-![839](./shots/lewis-0839.jpg)
-
-[Open full size](./shots/lewis-0839.jpg)
-
-## 840 — Dimboola Wimmera river footbridge night
-
-![840](./shots/lewis-0840.jpg)
-
-[Open full size](./shots/lewis-0840.jpg)
-
-## 841 — Chiltern box ironbark picnic
-
-![841](./shots/lewis-0841.jpg)
-
-[Open full size](./shots/lewis-0841.jpg)
-
-## 842 — Dunkeld Grampians pub beer garden frost
-
-![842](./shots/lewis-0842.jpg)
-
-[Open full size](./shots/lewis-0842.jpg)
-
-## 843 — Clunes booktown street browse
-
-![843](./shots/lewis-0843.jpg)
-
-[Open full size](./shots/lewis-0843.jpg)
-
-## 844 — Eaglehawk Bendigo suburb bowls club bar
-
-![844](./shots/lewis-0844.jpg)
-
-[Open full size](./shots/lewis-0844.jpg)
-
-## 845 — Cobden dairy heritage park day
-
-![845](./shots/lewis-0845.jpg)
-
-[Open full size](./shots/lewis-0845.jpg)
-
-## 846 — Euroa Ned Kelly mural laneway night
-
-![846](./shots/lewis-0846.jpg)
-
-[Open full size](./shots/lewis-0846.jpg)
-
-## 847 — Daylesford lake daylesford paddle
-
-![847](./shots/lewis-0847.jpg)
-
-[Open full size](./shots/lewis-0847.jpg)
-
-## 848 — Foster corner inlet fish co-op night
-
-![848](./shots/lewis-0848.jpg)
-
-[Open full size](./shots/lewis-0848.jpg)
-
-## 849 — Donald Buloke shire lake foreshore
-
-![849](./shots/lewis-0849.jpg)
-
-[Open full size](./shots/lewis-0849.jpg)
-
-## 850 — Gisborne Macedon ranges brewery taproom
-
-![850](./shots/lewis-0850.jpg)
-
-[Open full size](./shots/lewis-0850.jpg)
-
-## 851 — Drouin parkrun finish chill
-
-![851](./shots/lewis-0851.jpg)
-
-[Open full size](./shots/lewis-0851.jpg)
-
-## 852 — Hamilton pastoral museum carpark night
-
-![852](./shots/lewis-0852.jpg)
-
-[Open full size](./shots/lewis-0852.jpg)
 
 ## 853 — Echuca historic port paddle steamer day
 
@@ -110,17 +8,119 @@
 
 [Open full size](./shots/lewis-0853.jpg)
 
-## 854 — Healesville sanctuary after dark exit
-
-![854](./shots/lewis-0854.jpg)
-
-[Open full size](./shots/lewis-0854.jpg)
-
 ## 855 — Edenhope lake Wallace foreshore
 
 ![855](./shots/lewis-0855.jpg)
 
 [Open full size](./shots/lewis-0855.jpg)
+
+## 867 — Harrow kangaroo hop down cafe
+
+![867](./shots/lewis-0867.jpg)
+
+[Open full size](./shots/lewis-0867.jpg)
+
+## 868 — Kyabram fauna park cafe closed night
+
+![868](./shots/lewis-0868.jpg)
+
+[Open full size](./shots/lewis-0868.jpg)
+
+## 873 — Inglewood eucalyptus distillery grounds
+
+![873](./shots/lewis-0873.jpg)
+
+[Open full size](./shots/lewis-0873.jpg)
+
+## 892 — Mortlake wool shed dance afterparty
+
+![892](./shots/lewis-0892.jpg)
+
+[Open full size](./shots/lewis-0892.jpg)
+
+## 893 — Mirranatwa Grampians picnic flat
+
+![893](./shots/lewis-0893.jpg)
+
+[Open full size](./shots/lewis-0893.jpg)
+
+## 895 — Mount Eccles lava canal walk
+
+![895](./shots/lewis-0895.jpg)
+
+[Open full size](./shots/lewis-0895.jpg)
+
+## 897 — Murtoa stick shed exterior day
+
+![897](./shots/lewis-0897.jpg)
+
+[Open full size](./shots/lewis-0897.jpg)
+
+## 898 — Nhill silo art sodium streetscape
+
+![898](./shots/lewis-0898.jpg)
+
+[Open full size](./shots/lewis-0898.jpg)
+
+## 899 — Nathalia Broken Creek picnic
+
+![899](./shots/lewis-0899.jpg)
+
+[Open full size](./shots/lewis-0899.jpg)
+
+## 900 — Numurkah irrigation town RSL pokies
+
+![900](./shots/lewis-0900.jpg)
+
+[Open full size](./shots/lewis-0900.jpg)
+
+## 942 — Wangaratta jazz festival street spill
+
+![942](./shots/lewis-0942.jpg)
+
+[Open full size](./shots/lewis-0942.jpg)
+
+## 943 — Wahgunyah Murray riverbank day
+
+![943](./shots/lewis-0943.jpg)
+
+[Open full size](./shots/lewis-0943.jpg)
+
+## 944 — Warracknabeal wheat silo street night
+
+![944](./shots/lewis-0944.jpg)
+
+[Open full size](./shots/lewis-0944.jpg)
+
+## 945 — Warrnambool breakwater day walk
+
+![945](./shots/lewis-0945.jpg)
+
+[Open full size](./shots/lewis-0945.jpg)
+
+## 946 — Warragul farm supply carpark night
+
+![946](./shots/lewis-0946.jpg)
+
+[Open full size](./shots/lewis-0946.jpg)
+
+## 948 — Wedderburn goldfields pub night
+
+![948](./shots/lewis-0948.jpg)
+
+[Open full size](./shots/lewis-0948.jpg)
+
+## 949 — Whitfield King Valley cellar day
+
+![949](./shots/lewis-0949.jpg)
+
+[Open full size](./shots/lewis-0949.jpg)
+
+## 950 — Werribee open range zoo exit night
+
+![950](./shots/lewis-0950.jpg)
+
+[Open full size](./shots/lewis-0950.jpg)
 
 
 [← Album index](./INDEX.md)
