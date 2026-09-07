@@ -10,3 +10,4 @@ Made for phone viewing on GitHub (chat image loading can fail).
 - [Batch 018 — court paparazzi](./batch-018-court/INDEX.md)
 - [Batch 019 — Magistrates Court paparazzi (50)](./batch-019-magistrates/INDEX.md)
 - [Batch 020 — Lewis in the vest (50)](./batch-020-vest/INDEX.md)
+- [Batch 021 — vest mates long sleeves no tattoos (50)](./batch-021-vest-mates/INDEX.md)
