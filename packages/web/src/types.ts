@@ -6,7 +6,8 @@ export type ShotCategory =
   | "dog"
   | "casual"
   | "work"
-  | "night-out";
+  | "night-out"
+  | "stakeout";
 
 export interface Shot {
   id: number;

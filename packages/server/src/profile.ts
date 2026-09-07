@@ -49,6 +49,7 @@ export const lewis: LewisProfile = {
     "Overly perfect cinematic lighting or HDR glow",
     "Stock-photo posing, glossy magazine retouching",
     "Watermarks, logos, or text overlays (unless asked)",
+    "For stakeout/surveillance: portrait-close framing, subject looking at lens, Hollywood teal-orange or neon night grade, fake film scratches, twin extras, giant steering-wheel silhouette every frame",
   ],
 };
 

@@ -8,7 +8,8 @@ export type ShotCategory =
   | "dog"
   | "casual"
   | "work"
-  | "night-out";
+  | "night-out"
+  | "stakeout";
 
 export interface Shot {
   id: number;
@@ -58,6 +59,11 @@ const categoriesMeta: Record<
     label: "Nights out",
     blurb: "Pub, street at night, mates — phone flash or warm bar light",
   },
+  stakeout: {
+    label: "Stakeout",
+    blurb:
+      "Long-lens / car-POV surveillance stills — subject small, never looking at camera",
+  },
 };
 
 export function listCategories(): Array<{
@@ -85,6 +91,32 @@ function buildPrompt(parts: {
     parts.extras ?? "",
     "Authentic Instagram feed photo, ready to post, vertical or square phone crop feel.",
     negativeLook(),
+  ]
+    .filter(Boolean)
+    .join(" ");
+}
+
+/** Surveillance craft — distance, awareness, boring light. See references/PROMPT_CRAFT_STAKEOUT.md */
+function buildStakeoutPrompt(parts: {
+  scene: string;
+  framing: string;
+  lighting: string;
+  extras?: string;
+}): string {
+  return [
+    "WIDE establishing wildlife-telephoto / CCTV-range surveillance still in 16:9 — NOT a portrait, NOT a movie still, NOT a medium close-up.",
+    subjectLock(),
+    "CRITICAL SCALE: Lewis occupies UNDER 18–22% of the frame height; environment (asphalt, sky, buildings, lot) dominates 80%+ of the image.",
+    "AWARENESS LOCK: back fully turned, strict profile, or three-quarter into the scene — NEVER looking at the camera, NEVER looking back over the shoulder toward the lens.",
+    "OPTIC: long-lens compression, slight atmospheric haze, mild softness on distant faces — not beauty sharpness.",
+    "TEXTURE: mild natural digital zoom noise only — no found-footage scratches, no heavy film overlays.",
+    "VEHICLE POV (if used): subtle only — dusty windshield haze, thin A-pillar, or mirror tip. Never fill the frame with a giant steering wheel.",
+    parts.scene,
+    parts.framing,
+    parts.lighting,
+    parts.extras ?? "",
+    negativeLook(),
+    "Also avoid: cinematic teal-orange grade, Hollywood sodium night, portrait framing, subject centred and large, identical twin extras, costume cosplay bikers, readable real gang names or logos on patches.",
   ]
     .filter(Boolean)
     .join(" ");
@@ -365,6 +397,103 @@ export const shots: Shot[] = [
         "Leaning on a fence at golden hour in regional Victoria — paddock or quiet street behind. Simple tee, sunglasses on, relaxed posture.",
       framing: "Mate-taken phone portrait, vertical, head-to-waist or three-quarter.",
       lighting: "True golden hour warmth, sun low behind or side — natural lens flare ok if subtle.",
+    }),
+  },
+  {
+    id: 19,
+    category: "stakeout",
+    title: "Servo forecourt walk",
+    vibe: "Boring daytime evidence",
+    setting: "Regional petrol station forecourt, Victoria",
+    framing: "Long lens across carpark — Lewis small, walking away",
+    lighting: "Flat overcast midday",
+    prompt: buildStakeoutPrompt({
+      scene:
+        "Lewis in a charcoal hoodie and dark jeans, black sunglasses on, walking away across a regional petrol station forecourt past ordinary cars. Silver watch. No one else recognisable.",
+      framing:
+        "Shot from a parked car across the lot; dusty windshield haze at the edges; Lewis off-centre and small; empty asphalt and sky dominate.",
+      lighting: "Flat overcast Australian daylight — dull, real, not cinematic.",
+    }),
+  },
+  {
+    id: 20,
+    category: "stakeout",
+    title: "Carpark chat with older rider",
+    vibe: "Shady meetup, not posed",
+    setting: "Industrial estate carpark next to parked cruisers",
+    framing: "Telephoto side angle — two figures mid-distance",
+    lighting: "Harsh noon sun",
+    prompt: buildStakeoutPrompt({
+      scene:
+        "Lewis in a navy tee and faded black jacket, sunglasses on, standing mid-distance talking to ONE older stocky grey-bearded man in worn black leather (invented stranger — different face/age/build). Two cruiser motorcycles parked beside them. No readable club names on patches.",
+      framing:
+        "Long telephoto from across the industrial yard; both figures small; Lewis three-quarter back to camera; thin A-pillar soft in foreground left.",
+      lighting: "Harsh noon sun, short hard shadows, bleached sky.",
+    }),
+  },
+  {
+    id: 21,
+    category: "stakeout",
+    title: "Night street weak sodium",
+    vibe: "Weak streetlight, not movie night",
+    setting: "Quiet regional main street after dark",
+    framing: "Phone zoom — Lewis walking past shopfronts",
+    lighting: "Weak real streetlights, grainy",
+    prompt: buildStakeoutPrompt({
+      scene:
+        "Lewis in a dark flannel over a grey tee, sunglasses on, walking along a quiet regional main street at night past closed shops. Alone. Tall lean silhouette.",
+      framing:
+        "Phone zoom from across the street; Lewis small and off-centre; mild digital noise; no giant steering wheel — just a faint mirror edge bottom-right optional.",
+      lighting:
+        "Weak yellowish streetlights, underexposed phone night look, boring and grainy — not teal-orange cinema.",
+    }),
+  },
+  {
+    id: 22,
+    category: "stakeout",
+    title: "Pub carpark smokers",
+    vibe: "Distance evidence of hanging with riders",
+    setting: "Pub beer-garden carpark, late afternoon",
+    framing: "Wide telephoto — group small in frame",
+    lighting: "Late flat daylight",
+    prompt: buildStakeoutPrompt({
+      scene:
+        "Lewis in an olive work shirt and jeans, sunglasses on, standing with THREE distinct invented men near a few parked motorcycles outside a regional pub: (1) thin younger rider in scuffed brown leather, (2) bald heavyset man in denim vest, (3) tall lanky man in black hoodie. All different faces/ages. Generic patches only — no readable real gang names.",
+      framing:
+        "Long lens from the far end of the carpark; group occupies lower third; sky and empty lot dominate; Lewis in profile mid-conversation.",
+      lighting: "Late flat daylight, slightly cool, real phone colour.",
+    }),
+  },
+  {
+    id: 23,
+    category: "stakeout",
+    title: "Highway verge alone",
+    vibe: "Isolated roadside still",
+    setting: "Rural highway verge, dry grass, regional Vic",
+    framing: "Extreme distance — tiny figure",
+    lighting: "Bright harsh afternoon",
+    prompt: buildStakeoutPrompt({
+      scene:
+        "Lewis alone on a rural highway verge in a faded black bomber and jeans, sunglasses on, looking down at his phone — face not toward camera. Dry grass, sparse trees, empty road.",
+      framing:
+        "Very long telephoto; Lewis only ~15–20% of frame height; heat haze; pure optical distance — no car interior.",
+      lighting: "Bright harsh afternoon sun, washed colours, slight atmospheric haze.",
+    }),
+  },
+  {
+    id: 24,
+    category: "stakeout",
+    title: "Workshop bay doorway",
+    vibe: "Meeting at a shed",
+    setting: "Open roller-door workshop on industrial street",
+    framing: "Across-street zoom — doorway mid-ground",
+    lighting: "Overcast with interior fluoro spill",
+    prompt: buildStakeoutPrompt({
+      scene:
+        "Lewis in a cream oversized tee and dark pants, sunglasses on, standing in an open roller-door workshop bay talking to a thick-set middle-aged mechanic in oily blue coveralls (invented stranger). A chopper-style bike half-visible inside. No logos readable.",
+      framing:
+        "Across the street telephoto; doorway mid-ground; Lewis three-quarter facing into the bay; dusty glass haze soft across the foreground.",
+      lighting: "Overcast exterior + weak fluorescent spill from inside — flat and real.",
     }),
   },
 ];
