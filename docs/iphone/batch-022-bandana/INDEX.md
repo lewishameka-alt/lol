@@ -1,6 +1,6 @@
 # Batch 022 — fleece bandanas, naughty candid
 
-20 shots. Fleece bandanas over mouths. Vest mates hangout. Long sleeves, no tattoos. Mischief candid.
+20 completed shots. Fleece bandanas over mouths. Vest mates hangout. Long sleeves, no tattoos. Mischief candid.
 
 [PHONE_VIEW](./PHONE_VIEW.md)
 
