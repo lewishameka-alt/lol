@@ -2,7 +2,7 @@
 
 [Index](./INDEX.md)
 
-37 / 50 shots ready.
+50 / 50 shots ready.
 
 ## 1271
 
@@ -40,6 +40,10 @@
 
 ![1279](./shots/lewis-mag-court-1279.jpg)
 
+## 1280
+
+![1280](./shots/lewis-mag-court-1280.jpg)
+
 ## 1281
 
 ![1281](./shots/lewis-mag-court-1281.jpg)
@@ -63,6 +67,22 @@
 ## 1286
 
 ![1286](./shots/lewis-mag-court-1286.jpg)
+
+## 1287
+
+![1287](./shots/lewis-mag-court-1287.jpg)
+
+## 1288
+
+![1288](./shots/lewis-mag-court-1288.jpg)
+
+## 1289
+
+![1289](./shots/lewis-mag-court-1289.jpg)
+
+## 1290
+
+![1290](./shots/lewis-mag-court-1290.jpg)
 
 ## 1291
 
@@ -96,6 +116,14 @@
 
 ![1298](./shots/lewis-mag-court-1298.jpg)
 
+## 1299
+
+![1299](./shots/lewis-mag-court-1299.jpg)
+
+## 1300
+
+![1300](./shots/lewis-mag-court-1300.jpg)
+
 ## 1301
 
 ![1301](./shots/lewis-mag-court-1301.jpg)
@@ -124,6 +152,18 @@
 
 ![1307](./shots/lewis-mag-court-1307.jpg)
 
+## 1308
+
+![1308](./shots/lewis-mag-court-1308.jpg)
+
+## 1309
+
+![1309](./shots/lewis-mag-court-1309.jpg)
+
+## 1310
+
+![1310](./shots/lewis-mag-court-1310.jpg)
+
 ## 1311
 
 ![1311](./shots/lewis-mag-court-1311.jpg)
@@ -151,4 +191,16 @@
 ## 1317
 
 ![1317](./shots/lewis-mag-court-1317.jpg)
+
+## 1318
+
+![1318](./shots/lewis-mag-court-1318.jpg)
+
+## 1319
+
+![1319](./shots/lewis-mag-court-1319.jpg)
+
+## 1320
+
+![1320](./shots/lewis-mag-court-1320.jpg)
 

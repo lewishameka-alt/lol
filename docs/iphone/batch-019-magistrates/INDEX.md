@@ -1,6 +1,6 @@
 # Batch 019 — Melbourne Magistrates Court paparazzi
 
-Exit paparazzi vibe around William St / La Trobe St (Magistrates Court precinct only).
+50 completed shots. Exit paparazzi vibe around William St / La Trobe St (Magistrates Court precinct only).
 
 [PHONE_VIEW (all shots)](./PHONE_VIEW.md)
 
