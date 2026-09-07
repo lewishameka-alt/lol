@@ -1,12 +1,66 @@
-# Court paparazzi 1245–1270
+# Court paparazzi 1241–1260
 
 [← Index](./INDEX.md)
+
+## 1241 — Melbourne court exit paparazzi 1241
+
+![1241](./shots/lewis-court-1241.jpg)
+
+[Full size](./shots/lewis-court-1241.jpg)
+
+## 1242 — Melbourne court exit paparazzi 1242
+
+![1242](./shots/lewis-court-1242.jpg)
+
+[Full size](./shots/lewis-court-1242.jpg)
+
+## 1243 — Melbourne court exit paparazzi 1243
+
+![1243](./shots/lewis-court-1243.jpg)
+
+[Full size](./shots/lewis-court-1243.jpg)
+
+## 1244 — Melbourne court exit paparazzi 1244
+
+![1244](./shots/lewis-court-1244.jpg)
+
+[Full size](./shots/lewis-court-1244.jpg)
 
 ## 1245 — Melbourne court exit paparazzi 1245
 
 ![1245](./shots/lewis-court-1245.jpg)
 
 [Full size](./shots/lewis-court-1245.jpg)
+
+## 1246 — Melbourne court exit paparazzi 1246
+
+![1246](./shots/lewis-court-1246.jpg)
+
+[Full size](./shots/lewis-court-1246.jpg)
+
+## 1247 — Melbourne court exit paparazzi 1247
+
+![1247](./shots/lewis-court-1247.jpg)
+
+[Full size](./shots/lewis-court-1247.jpg)
+
+## 1248 — Melbourne court exit paparazzi 1248
+
+![1248](./shots/lewis-court-1248.jpg)
+
+[Full size](./shots/lewis-court-1248.jpg)
+
+## 1249 — Melbourne court exit paparazzi 1249
+
+![1249](./shots/lewis-court-1249.jpg)
+
+[Full size](./shots/lewis-court-1249.jpg)
+
+## 1250 — Melbourne court exit paparazzi 1250
+
+![1250](./shots/lewis-court-1250.jpg)
+
+[Full size](./shots/lewis-court-1250.jpg)
 
 ## 1251 — Melbourne court exit paparazzi 1251
 
@@ -67,54 +121,6 @@
 ![1260](./shots/lewis-court-1260.jpg)
 
 [Full size](./shots/lewis-court-1260.jpg)
-
-## 1261 — Melbourne court exit paparazzi 1261
-
-![1261](./shots/lewis-court-1261.jpg)
-
-[Full size](./shots/lewis-court-1261.jpg)
-
-## 1262 — Melbourne court exit paparazzi 1262
-
-![1262](./shots/lewis-court-1262.jpg)
-
-[Full size](./shots/lewis-court-1262.jpg)
-
-## 1263 — Melbourne court exit paparazzi 1263
-
-![1263](./shots/lewis-court-1263.jpg)
-
-[Full size](./shots/lewis-court-1263.jpg)
-
-## 1264 — Melbourne court exit paparazzi 1264
-
-![1264](./shots/lewis-court-1264.jpg)
-
-[Full size](./shots/lewis-court-1264.jpg)
-
-## 1265 — Melbourne court exit paparazzi 1265
-
-![1265](./shots/lewis-court-1265.jpg)
-
-[Full size](./shots/lewis-court-1265.jpg)
-
-## 1266 — Melbourne court exit paparazzi 1266
-
-![1266](./shots/lewis-court-1266.jpg)
-
-[Full size](./shots/lewis-court-1266.jpg)
-
-## 1267 — Melbourne court exit paparazzi 1267
-
-![1267](./shots/lewis-court-1267.jpg)
-
-[Full size](./shots/lewis-court-1267.jpg)
-
-## 1270 — Melbourne court exit paparazzi 1270
-
-![1270](./shots/lewis-court-1270.jpg)
-
-[Full size](./shots/lewis-court-1270.jpg)
 
 
 [← Index](./INDEX.md)

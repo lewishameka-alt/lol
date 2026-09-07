@@ -1,13 +1,14 @@
-# Melbourne courthouse paparazzi — batch 018 (39 photos)
+# Melbourne courthouse paparazzi — batch 018 (50 photos)
 
 Tap to open/save on iPhone.
 
-**Completed:** 39 / 50 daytime court-exit shots.
+**Completed:** 50 / 50 daytime court-exit shots.
 
 ## Pages
 
-- [1221–1243 · 20](./page-01.md)
-- [1245–1270 · 19](./page-02.md)
+- [1221–1240 · 20](./page-01.md)
+- [1241–1260 · 20](./page-02.md)
+- [1261–1270 · 10](./page-03.md)
 
 ## Shots
 [shots/](./shots/)
@@ -19,6 +20,7 @@ Tap to open/save on iPhone.
 - [1223](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1223.jpg)
 - [1224](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1224.jpg)
 - [1225](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1225.jpg)
+- [1226](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1226.jpg)
 - [1227](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1227.jpg)
 - [1228](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1228.jpg)
 - [1229](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1229.jpg)
@@ -31,10 +33,18 @@ Tap to open/save on iPhone.
 - [1236](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1236.jpg)
 - [1237](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1237.jpg)
 - [1238](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1238.jpg)
+- [1239](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1239.jpg)
+- [1240](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1240.jpg)
 - [1241](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1241.jpg)
 - [1242](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1242.jpg)
 - [1243](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1243.jpg)
+- [1244](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1244.jpg)
 - [1245](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1245.jpg)
+- [1246](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1246.jpg)
+- [1247](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1247.jpg)
+- [1248](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1248.jpg)
+- [1249](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1249.jpg)
+- [1250](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1250.jpg)
 - [1251](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1251.jpg)
 - [1252](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1252.jpg)
 - [1253](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1253.jpg)
@@ -52,4 +62,6 @@ Tap to open/save on iPhone.
 - [1265](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1265.jpg)
 - [1266](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1266.jpg)
 - [1267](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1267.jpg)
+- [1268](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1268.jpg)
+- [1269](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1269.jpg)
 - [1270](https://raw.githubusercontent.com/lewishameka-alt/lol/cursor/batch018-court-pap50-c1ce/docs/iphone/batch-018-court/shots/lewis-court-1270.jpg)
