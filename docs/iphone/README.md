@@ -14,3 +14,4 @@ Made for phone viewing on GitHub (chat image loading can fail).
 - [Batch 022 — fleece bandanas naughty candid (20)](./batch-022-bandana/INDEX.md)
 - [Batch 023 — standing around motorbikes (20)](./batch-023-bikes/INDEX.md)
 - [Batch 024 — sitting on the bikes (5)](./batch-024-sitting-bikes/INDEX.md)
+- [Batch 025 — day drinking with friends (200)](./batch-025-daydrink/INDEX.md)
