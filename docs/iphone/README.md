@@ -15,3 +15,4 @@ Made for phone viewing on GitHub (chat image loading can fail).
 - [Batch 023 — standing around motorbikes (20)](./batch-023-bikes/INDEX.md)
 - [Batch 024 — sitting on the bikes (5)](./batch-024-sitting-bikes/INDEX.md)
 - [Batch 025 — day drinking with friends (200)](./batch-025-daydrink/INDEX.md)
+- [Batch 026 — shed Instagram enjoyment reset (20)](./batch-026-shed/INDEX.md)
