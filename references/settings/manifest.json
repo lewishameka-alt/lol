@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "purpose": "Background, location, lighting, and vibe references only — never copy people from these photos",
+  "rules": {
+    "useFor": "Environments, furniture, lighting (flash/daylight), colour grade, phone-photo texture, regional Vic atmosphere",
+    "doNotUseFor": "Any face or body likeness — including Lewis or mates who appear in frame. People in these shots are scenery placeholders only.",
+    "whenGenerating": "Rebuild the place/vibe; invent different people if anyone else is needed; Lewis still comes only from references/lewis with sunglasses on"
+  },
+  "photos": [
+    {
+      "id": "setting-01",
+      "file": "setting-01.jpg",
+      "vibe": "night-out",
+      "note": "Outdoor night flash duo — dark marquee/crowd, harsh flash, party grain"
+    },
+    {
+      "id": "setting-02",
+      "file": "setting-02.jpg",
+      "vibe": "house-party",
+      "note": "Floor hang flash — drying rack, desk, messy share-house living room"
+    },
+    {
+      "id": "setting-03",
+      "file": "setting-03.jpg",
+      "vibe": "home",
+      "note": "Grey couch daylight — laundry rack behind, sliding door light, lived-in flat"
+    },
+    {
+      "id": "setting-04",
+      "file": "setting-04.jpg",
+      "vibe": "cafe",
+      "note": "Outdoor cafe table — wood grain, Coke cans, striped straws, festoon lights, stone wall"
+    },
+    {
+      "id": "setting-05",
+      "file": "setting-05.jpg",
+      "vibe": "night-out",
+      "note": "Outdoor party flash — palm fronds, fairy lights, lei, plastic cup, high energy"
+    },
+    {
+      "id": "setting-06",
+      "file": "setting-06.jpg",
+      "vibe": "night-out",
+      "note": "Dark club/party flash — near-black background, check shirt + graphic tee energy"
+    },
+    {
+      "id": "setting-07",
+      "file": "setting-07.jpg",
+      "vibe": "night-out",
+      "note": "Festival/party night flash trio — deep black bg, cups, rings, candid crop"
+    },
+    {
+      "id": "setting-08",
+      "file": "setting-08.jpg",
+      "vibe": "backyard",
+      "note": "Rural porch night flash — wooden rail, fairy lights on post, Aussie flag, cowboy-hat vibe"
+    },
+    {
+      "id": "setting-09",
+      "file": "setting-09.jpg",
+      "vibe": "backyard",
+      "note": "Sunday arvo backyard — deck, Weber, hedge, VB can, yellow lab, soft daylight"
+    },
+    {
+      "id": "setting-10",
+      "file": "setting-10.jpg",
+      "vibe": "backyard",
+      "note": "Backyard night flash on outdoor sofa — iris/hedge garden bed, harsh flash grain"
+    }
+  ]
+}

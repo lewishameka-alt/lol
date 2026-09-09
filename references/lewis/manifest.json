@@ -1,0 +1,252 @@
+{
+  "subject": "Lewis Hameka",
+  "version": 3,
+  "appearance": {
+    "hair": "Short dark brown textured crop / French crop fringe, sometimes longer mullet waves at back",
+    "face": "Defined jawline, lean face, light stubble / thin mustache sometimes, dark brows",
+    "sunglasses": "Black thick rectangular or sport wrap frames, dark opaque lenses, ALWAYS on face in generations; sometimes silver V/arrow logo on temple or white accents on bridge",
+    "build": "Tall ~6'2\" / 188cm, athletic skinny ~73kg, long limbs",
+    "style": "Casual Aussie \u2014 white/cream tees, linen, hoodies, oversized fits, silver metal watch often",
+    "tattoos": "HAMEKA in bold caps across upper chest/base of throat; two swallow birds on left upper chest/shoulder"
+  },
+  "rules": {
+    "sunglasses": "ON face in every generated photo \u2014 never bare eyes (even if some refs show bare eyes for structure)",
+    "mates": "People other than Lewis in these refs must NEVER be recreated or resembled"
+  },
+  "photos": [
+    {
+      "id": "lewis-01",
+      "file": "lewis-01.jpg",
+      "kind": "solo",
+      "note": "Twilight suburban walk, white long-sleeve, silver watch, shades on"
+    },
+    {
+      "id": "lewis-02",
+      "file": "lewis-02.jpg",
+      "kind": "group",
+      "note": "Night flash selfie at venue \u2014 Lewis left with shades; mate NOT a likeness ref"
+    },
+    {
+      "id": "lewis-03",
+      "file": "lewis-03.jpg",
+      "kind": "group",
+      "note": "Party flash group \u2014 Lewis centre with shades; others NOT likeness refs"
+    },
+    {
+      "id": "lewis-04",
+      "file": "lewis-04.jpg",
+      "kind": "solo",
+      "note": "Blue-hour sidewalk portrait, white tee, shades on, silver watch"
+    },
+    {
+      "id": "lewis-05",
+      "file": "lewis-05.jpg",
+      "kind": "crowd",
+      "note": "Night event flash in crowd \u2014 Lewis only; crowd faces must not be copied"
+    },
+    {
+      "id": "lewis-06",
+      "file": "lewis-06.jpg",
+      "kind": "group",
+      "note": "Bonds Outlet dusk \u2014 Lewis foreground; mate with cart NOT a likeness ref"
+    },
+    {
+      "id": "lewis-07",
+      "file": "lewis-07.jpg",
+      "kind": "solo",
+      "note": "Plant nursery daylight, white tee, thick black rectangular shades"
+    },
+    {
+      "id": "lewis-08",
+      "file": "lewis-08.jpg",
+      "kind": "group",
+      "note": "Backyard night flash peace sign \u2014 Lewis centre; mates NOT likeness refs"
+    },
+    {
+      "id": "lewis-09",
+      "file": "lewis-09.jpg",
+      "kind": "group",
+      "note": "Couch party flash \u2014 Lewis centre; all others NOT likeness refs"
+    },
+    {
+      "id": "lewis-10",
+      "file": "lewis-10.jpg",
+      "kind": "group",
+      "note": "Golden-hour sidewalk walk \u2014 Lewis only for likeness; other person NOT a ref"
+    },
+    {
+      "id": "lewis-11",
+      "file": "lewis-11.jpg",
+      "kind": "solo",
+      "note": "Red club couch, white tee, shades on, silver watch, candle table"
+    },
+    {
+      "id": "lewis-12",
+      "file": "lewis-12.jpg",
+      "kind": "group",
+      "note": "Night turf play-fight flash \u2014 Lewis in grey hoodie + shades; mates NOT likeness refs"
+    },
+    {
+      "id": "lewis-13",
+      "file": "lewis-13.jpg",
+      "kind": "group",
+      "note": "Living room daylight \u2014 Lewis on grey couch in black hoodie + shades; mate gaming NOT a likeness ref"
+    },
+    {
+      "id": "lewis-14",
+      "file": "lewis-14.jpg",
+      "kind": "crowd",
+      "note": "Festival night flash, white tee, arm up, shades on \u2014 crowd not copied"
+    },
+    {
+      "id": "lewis-15",
+      "file": "lewis-15.jpg",
+      "kind": "group",
+      "note": "Couch pile-on night flash \u2014 Lewis centre white long-sleeve + shades; others NOT likeness refs"
+    },
+    {
+      "id": "lewis-16",
+      "file": "lewis-16.jpg",
+      "kind": "solo",
+      "note": "Brick house front steps, grey windbreaker, shades on, can in hands"
+    },
+    {
+      "id": "lewis-17",
+      "file": "lewis-17.jpg",
+      "kind": "group",
+      "note": "Living room over couch \u2014 Lewis in navy Dickies hoodie + shades; mates NOT likeness refs"
+    },
+    {
+      "id": "lewis-18",
+      "file": "lewis-18.jpg",
+      "kind": "group",
+      "note": "Outdoor cafe film grain \u2014 use Lewis sunglasses/pose cues only; do not copy other patron"
+    },
+    {
+      "id": "lewis-19",
+      "file": "lewis-19.jpg",
+      "kind": "group",
+      "note": "Outdoor cafe overexposed \u2014 setting + shades energy; mate NOT a likeness ref"
+    },
+    {
+      "id": "lewis-20",
+      "file": "lewis-20.jpg",
+      "kind": "solo",
+      "note": "Plant nursery, white oversized tee, thick black shades, soft daylight"
+    },
+    {
+      "id": "lewis-21",
+      "file": "lewis-21.jpg",
+      "kind": "group",
+      "note": "Night flash couch \u2014 Lewis right in navy blazer + shades; mate NOT a likeness ref"
+    },
+    {
+      "id": "lewis-22",
+      "file": "lewis-22.jpg",
+      "kind": "group",
+      "note": "Couch party pink cowboy hat \u2014 Lewis centre black jersey + shades; others NOT likeness refs"
+    },
+    {
+      "id": "lewis-23",
+      "file": "lewis-23.jpg",
+      "kind": "group",
+      "note": "Bamboo-wall lounge \u2014 Lewis centre navy knit + shades with beer; mates NOT likeness refs"
+    },
+    {
+      "id": "lewis-24",
+      "file": "lewis-24.jpg",
+      "kind": "group",
+      "note": "Backyard night peace sign \u2014 Lewis cream sweatshirt + shades; mates NOT likeness refs"
+    },
+    {
+      "id": "lewis-25",
+      "file": "lewis-25.jpg",
+      "kind": "group",
+      "note": "House party huddle flash \u2014 Lewis centre shades on; others NOT likeness refs"
+    },
+    {
+      "id": "lewis-26",
+      "file": "lewis-26.jpg",
+      "kind": "group",
+      "note": "Alley night flash mid-chat \u2014 Lewis centre silver wrap shades; mates NOT likeness refs"
+    },
+    {
+      "id": "lewis-27",
+      "file": "lewis-27.jpg",
+      "kind": "solo",
+      "note": "Additional Lewis identity lock \u2014 shades on"
+    },
+    {
+      "id": "lewis-28",
+      "file": "lewis-28.jpg",
+      "kind": "group",
+      "note": "Group social \u2014 Lewis only for likeness; invent different people for anyone else"
+    },
+    {
+      "id": "lewis-29",
+      "file": "lewis-29.jpg",
+      "kind": "group",
+      "note": "Group social \u2014 Lewis only for likeness; invent different people for anyone else"
+    },
+    {
+      "id": "lewis-30",
+      "file": "lewis-30.jpg",
+      "kind": "solo",
+      "note": "Additional Lewis identity lock \u2014 shades on"
+    },
+    {
+      "id": "lewis-31",
+      "file": "lewis-31.jpg",
+      "kind": "solo",
+      "note": "Indoor mirror selfie, argyle knit, black shades with silver temple logo"
+    },
+    {
+      "id": "lewis-32",
+      "file": "lewis-32.jpg",
+      "kind": "solo",
+      "note": "Indoor selfie vs beige curtains, sport wrap shades with white bridge accents"
+    },
+    {
+      "id": "lewis-33",
+      "file": "lewis-33.jpg",
+      "kind": "solo",
+      "note": "Car passenger selfie, charcoal work jacket, thick black rectangular shades, seatbelt on"
+    },
+    {
+      "id": "lewis-34",
+      "file": "lewis-34.jpg",
+      "kind": "solo",
+      "note": "Bedroom high-angle selfie on yellow bedspread, white tee, wrap shades, silver watch, hot cross buns"
+    },
+    {
+      "id": "lewis-35",
+      "file": "lewis-35.jpg",
+      "kind": "solo",
+      "note": "Bare-eye side profile for jaw/neck structure only \u2014 generations still require shades"
+    },
+    {
+      "id": "lewis-36",
+      "file": "lewis-36.jpg",
+      "kind": "solo",
+      "note": "Bare-eye low-angle shirtless selfie \u2014 structure + swallow chest tattoo; generations still require shades"
+    },
+    {
+      "id": "lewis-37",
+      "file": "lewis-37.jpg",
+      "kind": "solo",
+      "note": "Bare-eye shirtless \u2014 HAMEKA neck/chest lettering + swallow tattoos clear; generations still require shades"
+    },
+    {
+      "id": "lewis-38",
+      "file": "lewis-38.jpg",
+      "kind": "group",
+      "note": "Bonds Outlet dusk fit check \u2014 Lewis left cream tee + shades; mate NOT a likeness ref"
+    },
+    {
+      "id": "lewis-39",
+      "file": "lewis-39.jpg",
+      "kind": "solo",
+      "note": "Blue-hour sidewalk portrait, white tee, oval black shades, silver watch, picket fence"
+    }
+  ]
+}

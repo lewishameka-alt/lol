@@ -21,6 +21,10 @@ describe("GET /api/profile", () => {
     expect(res.body.name).toBe(lewis.name);
     expect(res.body.heightCm).toBe(188);
     expect(res.body.weightKg).toBe(73);
+    expect(res.body.styleRules.some((r: string) => /sunglasses/i.test(r))).toBe(true);
+    expect(
+      res.body.consistencyLocks.some((r: string) => /different people|mates/i.test(r)),
+    ).toBe(true);
   });
 });
 
@@ -31,6 +35,40 @@ describe("GET /api/categories", () => {
     expect(res.body.categories.length).toBeGreaterThan(0);
     expect(res.body.categories[0]).toHaveProperty("id");
     expect(res.body.categories[0]).toHaveProperty("label");
+  });
+});
+
+describe("GET /api/references", () => {
+  it("returns lewis and settings libraries", async () => {
+    const res = await request(app).get("/api/references");
+    expect(res.status).toBe(200);
+    expect(res.body.lewis.count).toBe(39);
+    expect(res.body.settings.count).toBe(10);
+    expect(res.body.lewis.photos[0].url).toMatch(/^\/references\/lewis\//);
+    expect(res.body.settings.photos[0].url).toMatch(/^\/references\/settings\//);
+  });
+});
+
+describe("GET /api/references/settings", () => {
+  it("returns setting refs only", async () => {
+    const res = await request(app).get("/api/references/settings");
+    expect(res.status).toBe(200);
+    expect(res.body.library).toBe("settings");
+    expect(res.body.count).toBe(10);
+  });
+});
+
+describe("static reference images", () => {
+  it("serves a lewis photo", async () => {
+    const res = await request(app).get("/references/lewis/lewis-01.jpg");
+    expect(res.status).toBe(200);
+    expect(res.headers["content-type"]).toMatch(/image\/jpeg/);
+  });
+
+  it("serves a settings photo", async () => {
+    const res = await request(app).get("/references/settings/setting-01.jpg");
+    expect(res.status).toBe(200);
+    expect(res.headers["content-type"]).toMatch(/image\/jpeg/);
   });
 });
 
@@ -63,6 +101,8 @@ describe("GET /api/shots/random", () => {
     expect(res.body).toHaveProperty("title");
     expect(res.body).toHaveProperty("prompt");
     expect(res.body.prompt).toContain("Lewis Hameka");
+    expect(res.body.prompt).toMatch(/sunglasses/i);
+    expect(res.body.prompt).toMatch(/completely different people/i);
   });
 
   it("never returns the excluded shot", async () => {

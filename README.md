@@ -2,11 +2,11 @@
 
 Photorealistic Instagram shot studio for **Lewis Hameka**.
 
-The goal: every prompt should produce images that look like a normal phone photo of a
+Every prompt should produce images that look like a normal phone photo of a
 19-year-old bloke in regional Victoria — not AI. Realism always wins.
 
-- **`@lol/server`** — Express + TypeScript API (profile, categories, shot prompts)
-- **`@lol/web`** — Vite + React client for browsing shots and copying prompts
+- **`@lol/server`** — Express + TypeScript API (profile, categories, shot prompts, reference libraries)
+- **`@lol/web`** — Vite + React client for browsing shots, refs, and copying prompts
 
 ## Requirements
 
@@ -20,15 +20,29 @@ npm ci        # install all workspace dependencies
 npm run dev   # start API (:3001) and web client (:5173) together
 ```
 
-Then open http://localhost:5173. The Vite dev server proxies `/api/*` to the API on
+Then open http://localhost:5173. Vite proxies `/api/*` and `/references/*` to the API on
 port `3001`.
+
+## Reference libraries
+
+| Folder | Purpose |
+| --- | --- |
+| `references/lewis/` | Identity lock — face, hair, body, tattoos, sunglasses style (39 photos) |
+| `references/settings/` | Backgrounds & vibes only — place, lighting, flash look (10 photos) |
+
+Rules:
+
+1. Sunglasses on Lewis’s face in every generated photo.
+2. Match Lewis only from `references/lewis`.
+3. Never recreate mates / other people from any refs — invent different strangers.
+4. Settings refs are environments only — never copy people from them.
 
 ## How generation works
 
 1. Pick a category (selfie, mirror, gym, car, dog, casual, work, nights out).
-2. Copy the ready-made prompt — it already locks height, build, location, and phone-photo realism.
-3. In Cursor chat, upload reference photos of Lewis and ask for variations of that shot.
-4. Match face/body from refs; keep lighting natural; no text overlays unless asked.
+2. Copy the ready-made prompt — it locks height, build, sunglasses, and phone-photo realism.
+3. Use Lewis identity refs for likeness; use settings refs for place/lighting vibe.
+4. Keep lighting natural; no text overlays unless asked.
 
 ## Project layout
 
@@ -36,6 +50,9 @@ port `3001`.
 packages/
   server/   Express API (@lol/server)
   web/      Vite + React client (@lol/web)
+references/
+  lewis/      Identity photos + manifest
+  settings/   Background / vibe photos + manifest
 ```
 
 ## Common commands
@@ -55,7 +72,12 @@ packages/
 | --- | --- | --- |
 | GET | `/api/health` | Liveness probe |
 | GET | `/api/profile` | Lewis subject + style rules |
+| GET | `/api/references` | Lewis + settings libraries |
+| GET | `/api/references/lewis` | Identity refs only |
+| GET | `/api/references/settings` | Background / vibe refs only |
 | GET | `/api/categories` | Shot categories |
 | GET | `/api/shots` | List shots (`?category=` optional) |
 | GET | `/api/shots/random` | Random shot (`?exclude=` / `?category=`) |
 | GET | `/api/shots/:id` | Shot by id |
+| GET | `/references/lewis/*` | Static identity images |
+| GET | `/references/settings/*` | Static setting images |

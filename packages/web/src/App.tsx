@@ -1,11 +1,18 @@
 import { useCallback, useEffect, useState } from "react";
-import type { CategoryMeta, LewisProfile, Shot, ShotCategory } from "./types.js";
+import type {
+  CategoryMeta,
+  LewisProfile,
+  ReferencesPayload,
+  Shot,
+  ShotCategory,
+} from "./types.js";
 
 type Status = "idle" | "loading" | "error";
 
 export function App() {
   const [profile, setProfile] = useState<LewisProfile | null>(null);
   const [categories, setCategories] = useState<CategoryMeta[]>([]);
+  const [references, setReferences] = useState<ReferencesPayload | null>(null);
   const [category, setCategory] = useState<ShotCategory | "all">("all");
   const [shot, setShot] = useState<Shot | null>(null);
   const [status, setStatus] = useState<Status>("loading");
@@ -14,15 +21,20 @@ export function App() {
   useEffect(() => {
     void (async () => {
       try {
-        const [profileRes, categoriesRes] = await Promise.all([
+        const [profileRes, categoriesRes, referencesRes] = await Promise.all([
           fetch("/api/profile"),
           fetch("/api/categories"),
+          fetch("/api/references"),
         ]);
-        if (!profileRes.ok || !categoriesRes.ok) throw new Error("bootstrap failed");
+        if (!profileRes.ok || !categoriesRes.ok || !referencesRes.ok) {
+          throw new Error("bootstrap failed");
+        }
         const profileData: LewisProfile = await profileRes.json();
         const categoriesData: { categories: CategoryMeta[] } = await categoriesRes.json();
+        const referencesData: ReferencesPayload = await referencesRes.json();
         setProfile(profileData);
         setCategories(categoriesData.categories);
+        setReferences(referencesData);
       } catch {
         setStatus("error");
       }
@@ -159,6 +171,42 @@ export function App() {
         )}
       </section>
 
+      {references && (
+        <section className="refs">
+          <h2 className="refs__title">Lewis identity refs</h2>
+          <p className="refs__lede">
+            Face / body / sunglasses lock only. Mates in frame are never copied.
+          </p>
+          <div className="refs__grid">
+            {references.lewis.photos.map((photo) => (
+              <figure key={photo.id} className="refs__item">
+                <img src={photo.url} alt={photo.note} loading="lazy" />
+                <figcaption>
+                  <span className="refs__kind">{photo.kind}</span>
+                  {photo.note}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+
+          <h2 className="refs__title refs__title--spaced">Background & setting refs</h2>
+          <p className="refs__lede">
+            Place, lighting, and vibe only — never copy people from these frames.
+          </p>
+          <div className="refs__grid">
+            {references.settings.photos.map((photo) => (
+              <figure key={photo.id} className="refs__item">
+                <img src={photo.url} alt={photo.note} loading="lazy" />
+                <figcaption>
+                  <span className="refs__kind">{photo.vibe}</span>
+                  {photo.note}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </section>
+      )}
+
       {profile && (
         <section className="rules">
           <h2 className="rules__title">How every image should look</h2>
@@ -172,8 +220,15 @@ export function App() {
               <li key={rule}>{rule}</li>
             ))}
           </ul>
+          <h3 className="rules__subtitle">Hard locks</h3>
+          <ul className="rules__list">
+            {profile.consistencyLocks.map((rule) => (
+              <li key={rule}>{rule}</li>
+            ))}
+          </ul>
           <p className="rules__note">
-            Upload reference photos in chat so face and body stay locked. Realism always wins.
+            Lewis likeness comes only from identity refs. Settings refs are backgrounds and
+            vibes. Sunglasses stay on every shot. Mates are never copied. Realism always wins.
           </p>
         </section>
       )}
